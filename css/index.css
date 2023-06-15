@@ -1,0 +1,152 @@
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Oswald:wght@400;500;700&display=swap');
+
+
+/* CUSTOM PROPERTIES */
+
+:root {
+    --ff-arimo: 'Arimo', sans-serif;
+    --ff-oswald: 'Oswald', sans-serif;
+
+    --fw-reg: 400;
+    --fw-bold: 500;
+    --fw-extra-bold: 700;
+
+    --fs-h1: 4rem;
+    --fs-h2: 2.5rem;
+    --fs-h3: 2rem;
+    --fs-h4: 1.5rem;
+    --fs-h5: 1.25rem;
+    --p-large: 1.125rem;
+    --p-medium: 1rem;
+    --p-small: 0.875rem;
+
+    --clr-f-light: #FFFFFF;
+    --clr-f-dark: #000000;
+    --clr-f-dark-01: #010308;
+    --clr-f-dark-02: #030E27;
+    --clr-f-dark-03: #030303;
+    --clr-f-dark-04: #1E1E1E;
+    --clr-f-grey-01:  #414242;
+    --clr-f-grey-02:  #4A4747;
+    --clr-f-grey-03:  #5F5F5F;
+    --clr-f-yellow:  #FFB866;
+    --clr-f-orange: #FFE2C1;
+    --clr-bg-green: #66B89E;
+    --clr-bg-pink: #F8C9E1;
+    --clr-bg-violet: #C6BCFF;
+}
+
+
+/* GENERAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.section {
+    padding: 6em;
+}
+
+
+/* HEADER SECTION */
+
+.header {
+    background-color: var(--clr-bg-green);
+    padding: 2em 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 4.5em;
+    margin-right: 2em;
+}
+
+.company-name {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    color: var(--clr-f-dark);
+}
+
+.navbar > ul {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    padding-right: 3em;
+}
+
+.nav-item--subscribe {
+    padding-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link--melodies {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+    color: var(--clr-f-dark);
+}
+
+.nav-link--blog {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+    color: var(--clr-f-grey-01);
+}
+
+.nav-link--subscribe {
+    margin-left: 4.5em;
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+    color: var(--clr-f-yellow);
+    background-color: var(--clr-f-dark);
+    border-radius: 1em;
+    padding: .75em 1.5em;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    background-color: var(--clr-bg-green);
+    display: flex;
+}
+
+.hero--title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    color: var(--clr-f-dark-01);
+}
+
+
+/* MEDIA PLAYER SECTION */
+/* SLIDER SECTION */
+/* ABOUT SECTION */
+/* LYRICS SECTION */
+/* FOOTER */
