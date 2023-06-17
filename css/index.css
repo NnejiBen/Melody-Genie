@@ -126,7 +126,7 @@ img {
     font-weight: var(--fw-bold);
     color: var(--clr-f-yellow);
     background-color: var(--clr-f-dark);
-    border-radius: .7em;
+    border-radius: 16px;
     padding: .3em 1em;
 }
 
@@ -160,8 +160,8 @@ img {
     font-family: var(--ff-arimo);
     font-size: var(--fs-p-large);
     font-weight: var(--fw-normal);
-    line-height: 1.2em;
-    letter-spacing: 0.03em;
+    line-height: 22px;
+    letter-spacing: 0.5px;
     color: var(--clr-f-dark-02);
     margin-bottom: 2.5em;
 }
@@ -211,7 +211,7 @@ img {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
     font-weight: var(--fw-bold);
-    line-height: 2.25em;
+    line-height: 36px;
     color: var(--clr-f-dark-03);
 }
 
@@ -220,8 +220,8 @@ img {
     font-family: var(--ff-arimo);
     font-size: var(--fs-h5);
     font-weight: var(--fw-normal);
-    line-height: 1.5em;
-    letter-spacing: 0.043em;
+    line-height: 24px;
+    letter-spacing: 0.7px;
     color: var(--clr-f-dark-04);
 }
 
@@ -295,5 +295,70 @@ img {
 
 
 /* ABOUT SECTION */
+
+.about {
+    background: var(--clr-bg-pink);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 7em;
+}
+
+.about--left,
+.about--right {
+    position: absolute;
+}
+
+.about--left {
+    width: 371px;
+    margin-left: 6em;
+    left: 0;
+    top: 6em;
+    background: var(--clr-bg-violet);
+    border-radius: 24px;
+    padding: 1.5em;
+}
+
+.about--right {
+    width: 396px;
+    margin-right: 6em;
+    right: 0;
+    top: 25em;
+    background: var(--clr-bg-violet);
+    border-radius: 24px;
+}
+
+.about--title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    color: var(--clr-f-dark);
+    margin-bottom: .3em;
+}
+
+.about--subtitle {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-normal);
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: var(--clr-f-grey-02);
+}
+
+.about--body {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: var(--clr-f-grey-02);
+    padding: 1.5em;
+}
+
+
 /* LYRICS SECTION */
+
+
+
+
 /* FOOTER */
