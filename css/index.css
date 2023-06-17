@@ -139,6 +139,7 @@ img {
     padding-top: 5em;
     column-gap: 3em;
     position: relative;
+    overflow: hidden;
 }
 
 .hero--left {
@@ -250,10 +251,13 @@ img {
 }
 
 
-
-
-
 /* MEDIA PLAYER SECTION */
+
+
+
+
+
+
 /* SLIDER SECTION */
 /* ABOUT SECTION */
 /* LYRICS SECTION */
