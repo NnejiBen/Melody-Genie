@@ -71,7 +71,7 @@ img {
     align-items: center;
 }
 
-.logo-container {
+.logo-cnt {
     display: flex;
     align-items: center;
 }
@@ -260,7 +260,7 @@ img {
     height: 93vh;
 }
 
-.media-player--items-container {
+.media-player--items-cnt {
     position: absolute;
     left: 0;
     right: 0;
@@ -269,20 +269,20 @@ img {
 }
 
 
-/* SLIDER SECTION */
+/* TEXT SLIDER SECTION */
 
-.slider {
+.txt-slider {
     background: var(--clr-bg-pink);
     padding: 22em 0 4.5em 0;
 }
 
-.slider--container {
+.txt-slider--cnt {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.slider--text {
+.txt-slider--text {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h1);
     font-weight: var(--fw-bold);
@@ -355,6 +355,53 @@ img {
     padding: 1.5em;
 }
 
+
+/* IMAGE SLIDER SECTION */
+
+.img-slider {
+    background: var(--clr-bg-green);
+}
+
+.img-slider--text {
+    padding: 5em 0 2em 0;
+}
+
+.img-slider--follow-us {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-normal);
+    line-height: 36px;
+    color: var(--clr-f-dark-01);
+    text-align: center;
+    margin-bottom: 1.8em;
+}
+
+.img-slider--melody-genie {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    line-height: 59px;
+    color: var(--clr-f-dark-01);
+    text-align: center;
+}
+
+.img-slider--image-cnt {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6em;
+    /* gap: 1em; */
+}
+
+.img-slider--img-01,
+.img-slider--img-03 {
+    height: 19.5em;
+    object-fit: contain;
+}
+
+.img-slider--img-02 {
+    height: 19.5em;
+    object-fit: contain;
+}
 
 /* LYRICS SECTION */
 
