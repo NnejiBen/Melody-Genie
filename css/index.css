@@ -60,6 +60,10 @@ img {
     padding: 0 6em;
 }
 
+.block {
+    display: block;
+}
+
 
 /* HEADER SECTION */
 
@@ -405,7 +409,9 @@ img {
 
 /* LYRICS SECTION */
 
-
+.lyrics {
+    
+}
 
 
 /* FOOTER */
