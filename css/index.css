@@ -141,14 +141,14 @@ img {
     background: var(--clr-bg-green);
     display: flex;
     padding-top: 5em;
-    column-gap: 3em;
-    position: relative;
-    overflow: hidden;
     padding-bottom: 1em;
+    position: relative;
+    /* overflow: hidden; */
 }
 
 .hero--left {
     width: 50%;
+    padding-right: 3em;
 }
 
 .hero--title {
@@ -187,8 +187,8 @@ img {
 .hero--right {
     width: 50%;
     position: absolute;
-    top: .5em;
-    left: 54%;
+    top: 3%;
+    left: 50%;
 }
 
 .hero--card {
@@ -565,6 +565,11 @@ img {
 
 .footer--blog-cnt {
     margin-right: 10em;
+}
+
+.footer--heading-blog {
+    text-decoration: none;
+    color: var(--clr-f-dark);
 }
 
 .footer--contact-cnt {
