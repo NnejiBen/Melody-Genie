@@ -17,8 +17,8 @@
     --fs-h2: 2.5rem;
     --fs-h3: 2rem;
     --fs-h4: 1.5rem;
-    /* --fs-h5: 1.25rem; */
-    --fs-h5: 1rem;
+    --fs-h5: 1.25rem;
+    /* --fs-h5: 1rem; */
     --fs-p-large: 1.125rem;
     --fs-p-medium: 1rem;
     --fs-p-small: 0.875rem;
@@ -410,8 +410,91 @@ img {
 /* LYRICS SECTION */
 
 .lyrics {
-    
+    display: flex;
+    column-gap: 3em;
+    background: var(--clr-bg-green);
 }
 
+.lyrics--left {
+    width: 50%;
+}
+
+.lyrics--subscribe-title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    line-height: 59px;
+    color: var(--clr-f-dark);
+    margin-bottom: .5em;
+}
+
+.lyrics--subscribe-subtitle {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: var(--clr-f-dark-02);
+    margin-bottom: 2em;
+}
+
+.lyrics--email-label {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h5);
+    font-weight: var(--fw-normal);
+    line-height: 30px;
+    color: var(--clr-f-dark);
+    margin-bottom: .3em;
+}
+
+.lyrics--email-input {
+    padding: 1.3em 1.5em;
+    width: 100%;
+    border: 1px solid var(--clr-f-grey-03);
+    border-radius: 16px;
+    background-color: var(--clr-bg-green);
+    margin-bottom: 2.8em;
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-p-medium);
+    font-weight: var(--fw-normal);
+    line-height: 24px;
+    color: var(--clr-f-grey-03);
+}
+
+.lyrics--email-input:focus {
+    background: var(--clr-bg-green);
+    outline: none;
+}
+
+.lyrics--email-input:-webkit-autofill,
+.lyrics--email-textarea:-webkit-autofill,
+.lyrics--email-select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--clr-bg-green) inset !important;
+  -webkit-text-fill-color: var(--clr-f-grey-03) !important;
+}
+
+.lyrics--subscribe-btn {
+    padding: .7em .5em;
+    width: 100%;
+    background: var(--clr-f-dark);
+    border-radius: 24px;
+    border: none;
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    line-height: 38px;
+    color: var(--clr-f-yellow);
+    margin-bottom: 1.3em;
+}
+
+.lyrics--01 {
+    padding: 2.25em 2em;
+    background: var(--clr-f-light);
+    border-radius: 24px;
+}
+
+.lyrics--right {
+    width: 50%;
+}
 
 /* FOOTER */
