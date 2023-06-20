@@ -412,6 +412,7 @@ img {
 .lyrics {
     display: flex;
     background: var(--clr-bg-green);
+    height: 53.5em;
 }
 
 .lyrics--left {
@@ -519,3 +520,53 @@ img {
 }
 
 /* FOOTER */
+
+.footer {
+    background: var(--clr-bg-violet);
+    height: 100vh;
+    display: flex;
+    padding: 26em 6em 0 6em;
+}
+
+.footer--title-cnt {
+    margin-right: 9em;
+}
+
+.footer--title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    line-height: 59px;
+    color: var(--clr-f-dark);
+}
+
+.footer--heading {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    line-height: 47px;
+    color: var(--clr-f-dark);
+    margin-bottom: .5em;
+}
+
+.footer--item {
+    list-style: none;
+}
+
+.footer--link {
+    text-decoration: none;
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: var(--clr-f-dark-04);
+}
+
+.footer--blog-cnt {
+    margin-right: 10em;
+}
+
+.footer--contact-cnt {
+    margin-right: 10em;
+}
