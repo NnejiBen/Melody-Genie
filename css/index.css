@@ -237,7 +237,7 @@ img {
 
 .hero--card-david, 
 .hero--card-slay {
-    scale: 60%;
+    transform: scale(60%);
     opacity: 50%;
 }
 
@@ -274,6 +274,7 @@ img {
     align-items: center;
     justify-content: center;
 }
+
 
 .txt-slider--text {
     font-family: var(--ff-oswald);
