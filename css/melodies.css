@@ -37,6 +37,7 @@
     --clr-green: #66B89E;
     --clr-pink: #F8C9E1;
     --clr-violet: #C6BCFF;
+    --clr-yellow:  #FFFDC2;
 }
 
 
@@ -245,6 +246,48 @@ img {
     line-height: 120%;
     color: var(--clr-dark);
 }
+
+
+/* TRENDING SECTION */
+
+.trending {
+    background: var(--clr-yellow);
+    padding: 8.75em 6em 8em 6em;
+}
+
+.trending--title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h2-3em);
+    font-weight: var(--fw-extra-bold);
+    line-height: 120%;
+    color: var(--clr-dark);
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.trending--container {
+    display: flex;
+    column-gap: 2.5em;
+}
+
+.trending--song-title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-extra-bold);
+    line-height: 120%;
+    color: var(--clr-dark);
+    margin: 1em 0 .6em 0;
+}
+
+.trending--artist {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 120%;
+    color: var(--clr-dark);
+}
+
+
 
 
 
