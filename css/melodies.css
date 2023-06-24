@@ -1,0 +1,308 @@
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Oswald:wght@400;500;700&display=swap');
+
+
+/* CUSTOM PROPERTIES */
+
+:root {
+    --ff-arimo: 'Arimo', sans-serif;
+    --ff-oswald: 'Oswald', sans-serif;
+
+    --fw-normal: 400;
+    --fw-bold: 500;
+    --fw-extra-bold: 700;
+
+    --fs-h1: 4rem;
+    --fs-h2: 2.5rem;
+    --fs-h2-3em: 3em;
+    --fs-h3: 2rem;
+    --fs-h4: 1.5rem;
+    --fs-h5: 1.25rem;
+    --fs-p-large: 1.125rem;
+    --fs-p-medium: 1rem;
+    --fs-p-small: 0.875rem;
+
+    --clr-light: #FFFFFF;
+    --clr-dark: #000000;
+    --clr-dark-01: #010308;
+    --clr-dark-02: #030E27;
+    --clr-dark-03: #030303;
+    --clr-dark-04: #1E1E1E;
+    --clr-grey-01:  #414242;
+    --clr-grey-02:  #4A4747;
+    --clr-grey-03:  #5F5F5F;
+    --clr-yellow:  #FFB866;
+    --clr-orange: #FFE2C1;
+    --clr-green: #66B89E;
+    --clr-pink: #F8C9E1;
+    --clr-violet: #C6BCFF;
+}
+
+
+/* GENERAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.section {
+    padding: 0 6em;
+}
+
+.block {
+    display: block;
+}
+
+
+/* HEADER SECTION */
+
+.header {
+    background-color: var(--clr-green);
+    padding: 2em 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-cnt {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 4.5em;
+    margin-right: 2em;
+}
+
+.company-name {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    color: var(--clr-dark);
+}
+
+.navbar > ul {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    padding-right: 3em;
+}
+
+.nav-item--subscribe {
+    padding-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link--melodies {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+    color: var(--clr-dark);
+}
+
+.nav-link--blog {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+    color: var(--clr-grey-01);
+}
+
+.nav-link--subscribe {
+    margin-left: 4.5em;
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+    color: var(--clr-yellow);
+    background-color: var(--clr-dark);
+    border-radius: 16px;
+    padding: .3em 1em;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    background: var(--clr-green);
+    display: flex;
+    padding: 7.5em 6em 2em 10.5em;
+}
+
+.hero--left {
+    width: 50%;
+    padding-right: 3em;
+}
+
+.hero--title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-extra-bold);
+    line-height: 120%;
+    color: var(--clr-dark);
+    margin-bottom: .4em;
+}
+
+.hero--subtitle {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-extra-bold);
+    color: #000;
+    line-height: 120%;
+    margin-bottom: 1.5em;
+}
+
+.hero--body {
+    width: 95%;
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: var(--clr-dark-02);
+    margin-bottom: 1.5em;
+}
+
+.hero--artist {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 120%;
+    color: var(--clr-dark);
+    margin-bottom: 2em;
+
+}
+
+.hero--btn {
+    width: 100%;
+    padding: .5em;
+    border: none;
+    border-radius: 16px;
+    background: var(--clr-dark);
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    color: var(--clr-yellow);
+    margin-bottom: 3em;
+    cursor: pointer;
+}
+
+.hero--right {
+    width: 50%;
+    transform: translate(0, -4em);
+}
+
+
+/* RELATED SONGS SECTION */
+
+.related-songs {
+    background: var(--clr-pink);
+    padding: 8.75em 6em 8em 6em;
+}
+
+.related-songs--title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h2-3em);
+    font-weight: var(--fw-extra-bold);
+    line-height: 120%;
+    color: var(--clr-dark);
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.related--container {
+    display: flex;
+    column-gap: 2.5em;
+}
+
+.related--song-title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-extra-bold);
+    line-height: 120%;
+    color: var(--clr-dark);
+    margin: 1em 0 .6em 0;
+}
+
+.related--artist {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 120%;
+    color: var(--clr-dark);
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+    background: var(--clr-violet);
+    height: 100vh;
+    display: flex;
+    padding: 26em 6em 0 6em;
+}
+
+.footer--title-cnt {
+    margin-right: 9em;
+}
+
+.footer--title {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    line-height: 59px;
+    color: var(--clr-dark);
+}
+
+.footer--heading {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    line-height: 47px;
+    color: var(--clr-dark);
+    margin-bottom: .5em;
+}
+
+.footer--item {
+    list-style: none;
+}
+
+.footer--link {
+    text-decoration: none;
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: var(--clr-dark-04);
+}
+
+.footer--blog-cnt {
+    margin-right: 10em;
+}
+
+.footer--heading-blog {
+    text-decoration: none;
+    color: var(--clr-dark);
+}
+
+.footer--contact-cnt {
+    margin-right: 10em;
+}

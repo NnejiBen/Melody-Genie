@@ -269,12 +269,6 @@ img {
     padding: 22em 0 4.5em 0;
 }
 
-.txt-slider--cnt {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .txt-slider--text {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h1);
@@ -284,6 +278,27 @@ img {
     -webkit-text-fill-color: var(--clr-pink);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--clr-dark-03);
+}
+
+.txt-slider--cnt {
+    display: flex;
+    align-items: center;
+    margin: auto 6em auto 6em;
+    white-space: nowrap;
+    /* animation-name: marquee;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    animation: marquee 10s infinite linear;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 
