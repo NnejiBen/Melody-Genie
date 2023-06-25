@@ -31,6 +31,7 @@
     --clr-dark-02: #030E27;
     --clr-dark-03: #030303;
     --clr-dark-04: #1E1E1E;
+    --clr-dark-05: #2D2D2D;
     --clr-grey-01:  #414242;
     --clr-grey-02:  #4A4747;
     --clr-grey-03:  #5F5F5F;
@@ -213,9 +214,8 @@ img {
 
 .blog {
     display: flex;
-    flex-direction: column;
     padding: 0 6em;
-    column-gap: 2em;
+    column-gap: 2.5em;
     background: var(--clr-yellow-bg);
 }
 
@@ -224,6 +224,15 @@ img {
     width: 50%;
     border: 1px solid var(--forum-sec, #1E1E1E);
     border-radius: 16px;
+    margin: 2em 0;
+}
+
+.blogs-01-and-02 {
+    padding-top: 4em;
+}
+
+.blogs-05-and-06 {
+    padding-bottom: 4em;
 }
 
 .blog--img > img {
@@ -256,7 +265,7 @@ img {
     line-height: 120%;
     letter-spacing: 0.5px;
     color: var(--clr-dark-02);
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
 
 .blog--read-more > a {
@@ -270,9 +279,9 @@ img {
 }
 
 .blog--hr {
-    margin-bottom: 2em;
+    margin-bottom: 2.3em;
     border: none;
-    height: 1px;
+    height: 2px;
     background-color: #D7D7D7;
 }
 
@@ -280,19 +289,17 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.7em;
 }
 
-.blog--reactions-left > img,
-.blog--reactions-right > img {
+.blog--reactions-img {
     max-width: 1.5em;
 }
 
 .blog--reactions-left {
-    width: 22%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    column-gap: 1em;
 }
 
 .blog--reactions-chat-cnt {
@@ -312,9 +319,33 @@ img {
 
 .blog--author {
     display: flex;
+    align-items: center;
+    column-gap: 1em;
 }
 
+.blog--author-profile-img {
+    max-width: 2.5em;
+}
 
+.blog--author-name {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-p-large);
+    font-weight: var(--fw-normal);
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: var(--clr-dark-03);
+    margin-bottom: .3em;
+}
+
+.blog--author-time {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-medium);
+    font-weight: var(--fw-normal);
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: var(--clr-dark-05);
+    color: #2D2D2D;
+}
 
 
 
