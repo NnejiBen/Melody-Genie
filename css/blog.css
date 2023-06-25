@@ -235,7 +235,7 @@ img {
     padding-bottom: 4em;
 }
 
-.blog--img > img {
+.blog--cover-img {
     width: 37.75em;
 }
 
@@ -348,13 +348,13 @@ img {
 }
 
 
+/* MEDIA PLAYER SECTION */
 
-
-
-
-
-
-
+.media-player {
+    background: var(--clr-green);
+    height: 48em;
+    padding-top: 3em;
+}
 
 /* FOOTER */
 
