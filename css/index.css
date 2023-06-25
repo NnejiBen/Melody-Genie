@@ -156,7 +156,6 @@ img {
 }
 
 .hero--body {
-    width: 95%;
     font-family: var(--ff-arimo);
     font-size: var(--fs-p-large);
     font-weight: var(--fw-normal);
