@@ -530,7 +530,7 @@ img {
 
 .footer {
     background: var(--clr-violet);
-    height: 100vh;
+    height: 40em;
     display: flex;
     padding: 26em 6em 0 6em;
 }
