@@ -207,7 +207,65 @@ img {
 }
 
 
-/* ROW 01 SECTION/ */
+/* BLOGS SECTION - GENERAL */
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: 0 6em;
+    column-gap: 2em;
+}
+
+.blog--left,
+.blog--right {
+    width: 50%;
+}
+
+.blog--img > img {
+    width: 37.75em;
+}
+
+.blog--content {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog--content > h4 {
+    color: var(--forum-text, #030303);
+    font-size: 24px;
+    font-family: Oswald;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.blog--content > p {
+    color: var(--melogy-sec, #030E27);
+    font-size: 16px;
+    font-family: Arimo;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.blog--reactions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog--reactions-left {
+    display: flex;
+}
+.blog--author {
+    display: flex;
+}
+
+
+
+
+
+
+
+
 
 
 
