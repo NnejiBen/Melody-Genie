@@ -118,20 +118,19 @@ img {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
     font-weight: var(--fw-bold);
-    color: var(--clr-dark);
+    color: var(--clr-grey-01);
 }
 
 .nav-link--blog {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
     font-weight: var(--fw-bold);
-    color: var(--clr-grey-01);
+    color: var(--clr-dark);
 }
 
 .header--subscribe-cnt {
     display: flex;
     align-items: center;
-    /* width: 100%; */
 }
 
 .header--search-img {
@@ -268,6 +267,11 @@ img {
     line-height: 120%;
     color: var(--clr-dark-03);
     margin: 0 0 .7em 0;
+    text-decoration: none;
+}
+
+.blog--content-title:hover {
+    opacity: .8;
 }
 
 .blog--content-body {
@@ -288,6 +292,10 @@ img {
     letter-spacing: 0.5px;
     color: var(--clr-yellow);
     text-decoration: none;
+}
+
+.blog--read-more > a:hover {
+    font-weight: var(--fw-bold);
 }
 
 .blog--hr {
