@@ -148,76 +148,6 @@ img {
 }
 
 
-/* HERO SECTION */
-
-.hero {
-    background: var(--clr-green);
-    display: flex;
-    padding: 7.5em 10.5em 2em 10.5em;
-}
-
-.hero--left {
-    width: 50%;
-}
-
-.hero--title {
-    font-family: var(--ff-oswald);
-    font-size: var(--fs-h1);
-    font-weight: var(--fw-extra-bold);
-    line-height: 120%;
-    color: var(--clr-dark);
-    margin-bottom: .4em;
-}
-
-.hero--subtitle {
-    font-family: var(--ff-arimo);
-    font-size: var(--fs-h4);
-    font-weight: var(--fw-extra-bold);
-    color: #000;
-    line-height: 120%;
-    margin-bottom: 1.5em;
-}
-
-.hero--body {
-    font-family: var(--ff-arimo);
-    font-size: var(--fs-p-large);
-    font-weight: var(--fw-normal);
-    line-height: 120%;
-    letter-spacing: 0.5px;
-    color: var(--clr-dark-02);
-    margin-bottom: 1.5em;
-}
-
-.hero--artist {
-    font-family: var(--ff-oswald);
-    font-size: var(--fs-p-large);
-    font-weight: var(--fw-normal);
-    line-height: 120%;
-    color: var(--clr-dark);
-    margin-bottom: 2em;
-
-}
-
-.hero--btn {
-    width: 100%;
-    padding: .5em;
-    border: none;
-    border-radius: 16px;
-    background: var(--clr-dark);
-    font-family: var(--ff-oswald);
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-bold);
-    color: var(--clr-yellow);
-    margin-bottom: 3em;
-    cursor: pointer;
-}
-
-.hero--right {
-    transform: translate(0, -4em);
-    padding-left: 3em;
-}
-
-
 /* RELATED SONGS SECTION */
 
 .related-songs {
@@ -225,7 +155,7 @@ img {
     padding: 8.75em 6em 8em 6em;
 }
 
-.related-songs--section-title {
+.related-songs--title {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h2-3em);
     font-weight: var(--fw-extra-bold);
@@ -240,10 +170,6 @@ img {
     column-gap: 2.5em;
 }
 
-.related--cnt > a {
-    text-decoration: none;
-}
-
 .related--song-title {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
@@ -254,50 +180,6 @@ img {
 }
 
 .related--artist {
-    font-family: var(--ff-arimo);
-    font-size: var(--fs-p-large);
-    font-weight: var(--fw-normal);
-    line-height: 120%;
-    color: var(--clr-dark);
-}
-
-
-/* TRENDING SECTION */
-
-.trending {
-    background: var(--clr-yellow-bg);
-    padding: 8.75em 6em 8em 6em;
-}
-
-.trending--title {
-    font-family: var(--ff-oswald);
-    font-size: var(--fs-h2-3em);
-    font-weight: var(--fw-extra-bold);
-    line-height: 120%;
-    color: var(--clr-dark);
-    text-align: center;
-    margin-bottom: 1.5em;
-}
-
-.trending--cnt {
-    display: flex;
-    column-gap: 2.5em;
-}
-
-.trending--cnt > a {
-    text-decoration: none;
-}
-
-.trending--song-title {
-    font-family: var(--ff-oswald);
-    font-size: var(--fs-h4);
-    font-weight: var(--fw-extra-bold);
-    line-height: 120%;
-    color: var(--clr-dark);
-    margin: 1em 0 .6em 0;
-}
-
-.trending--artist {
     font-family: var(--ff-arimo);
     font-size: var(--fs-p-large);
     font-weight: var(--fw-normal);
