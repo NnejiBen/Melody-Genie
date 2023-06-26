@@ -89,6 +89,7 @@ img {
     font-size: var(--fs-h3);
     font-weight: var(--fw-bold);
     color: var(--clr-dark);
+    text-decoration: none;
 }
 
 .navbar > ul {
@@ -492,6 +493,7 @@ img {
     line-height: 38px;
     color: var(--clr-yellow);
     margin-bottom: 1.3em;
+    cursor: pointer;
 }
 
 .lyrics--cnt {
@@ -544,6 +546,7 @@ img {
     font-weight: var(--fw-bold);
     line-height: 59px;
     color: var(--clr-dark);
+    text-decoration: none;
 }
 
 .footer--heading {
