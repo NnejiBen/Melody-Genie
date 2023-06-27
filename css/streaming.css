@@ -153,6 +153,7 @@ img {
 .streaming {
     background: var(--clr-green);
     padding: 3.5em 0;
+    overflow: hidden;
 }
 .streaming--cnt {
     display: flex;
@@ -281,11 +282,7 @@ img {
 
 .lyrics--item {
     border-radius: 24px;
-    /* width: 400px; */
-    /* height: 400px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* height: 440px; */
 }
 
 .lyrics--item-text-cnt {
@@ -311,10 +308,10 @@ img {
     color: var(--clr-dark-01);
 }
 
-.lyrics--item > img {
-    /* width: max-content; */
-    /* object-fit: contain; */
-    
+.lyrics--item-img-cnt {
+    padding: .5em;
+    display: flex;
+    justify-content: center;
 }
 
 .lyricss--col-01-lyrics-01 { background: #C6BCFF; }
