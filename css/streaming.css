@@ -152,9 +152,10 @@ img {
 
 .streaming {
     background: var(--clr-green);
-    padding: 3.5em 0;
+    padding: 3.5em 0 6em 0;
     overflow: hidden;
 }
+
 .streaming--cnt {
     display: flex;
     position: relative;
@@ -242,7 +243,7 @@ img {
 /* LYRICS SECTION */
 
 .lyrics {
-    margin: 7em auto 6em auto;
+    margin: 6em auto 6em auto;
 }
 
 .lyrics--title {
@@ -269,20 +270,19 @@ img {
 
 .lyrics--lyrics-cnt {
     display: flex;
-    column-gap: 1.5em;
-}
-
-.lyrics--col-01-cnt,
-.lyrics--col-02-cnt,
-.lyrics--col-03-cnt {
-    display: flex;
     flex-direction: column;
     row-gap: 2em;
 }
 
+.lyrics--row-one,
+.lyrics--row-two {
+    display: flex;
+    column-gap: 1.5em;
+}
+
 .lyrics--item {
     border-radius: 24px;
-    /* height: 440px; */
+    width: 35%;
 }
 
 .lyrics--item-text-cnt {
@@ -314,13 +314,12 @@ img {
     justify-content: center;
 }
 
-.lyricss--col-01-lyrics-01 { background: #C6BCFF; }
-.lyricss--col-01-lyrics-02 { background: #BDFFBD; }
-.lyricss--col-02-lyrics-01 { background: #FFB866; }
-.lyricss--col-02-lyrics-02 { background: #66B89E; }
-.lyricss--col-03-lyrics-01 { background: #C6D6FB; }
-.lyricss--col-03-lyrics-02 { background: #FFFDC2; }
-
+.row-01-lyrics-01 { background: #C6BCFF; }
+.row-01-lyrics-02 { background: #FFB866; }
+.row-01-lyrics-03 { background: #C6D6FB; }
+.row-02-lyrics-01 { background: #BDFFBD; }
+.row-02-lyrics-02 { background: #66B89E; }
+.row-02-lyrics-03 { background: #FFFDC2; }
 
 
 /* RELATED SONGS SECTION */
