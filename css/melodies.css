@@ -310,8 +310,57 @@ img {
 
 .media-player {
     background: var(--clr-green);
-    height: 54em;
+    height: 53.5em;
     padding-top: 8.75em;
+}
+
+.media-player--cnt {
+    position: relative;
+}
+
+.media-player--lower-section {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 16px 16px;
+    background: rgba(0, 0, 0, 0.80);
+    padding: 4em 2em;
+}
+
+.media-player--artist {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-extra-bold);
+    line-height: 120%;
+    color: var(--clr-light);
+    margin-bottom: .3em;
+}
+
+.media-player--song-title {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-medium);
+    font-weight: var(--fw-extra-bold);
+    line-height: 120%;
+    color: var(--clr-light);
+}
+
+.control-and-progress-bar-cnt {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin: 0 auto;
+}
+
+.control-cnt {
+    display: flex;
+    justify-content: center;
+}
+
+.shuffle-cnt {
+    margin-left: auto;
+
 }
 
 
