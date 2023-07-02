@@ -597,6 +597,8 @@ img {
 
 .footer--title-cnt {
     margin-right: 9em;
+    display: flex;
+    column-gap: 1em;
 }
 
 .footer--title {
@@ -980,6 +982,10 @@ html {
 .footer--title {
     font-size: 2rem;
     line-height: 120%;
+}
+
+.footer--logo-cnt {
+    width: 10%;
 }
 
 .footer--heading {
