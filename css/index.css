@@ -472,20 +472,10 @@ img {
 
 .img-slider--image-cnt {
     display: flex;
-    justify-content: space-between;
+    column-gap: 2em;
     padding-bottom: 7.5em;
 }
 
-.img-slider--img-01,
-.img-slider--img-03 {
-    height: 19.5em;
-    object-fit: contain;
-}
-
-.img-slider--img-02 {
-    height: 19.5em;
-    object-fit: contain;
-}
 
 /* LYRICS SECTION */
 
@@ -686,10 +676,6 @@ html {
     padding-bottom: 2em;
 }
 
-.header--logo-cnt {
-    width: 40%;
-}
-
 .logo {
     max-width: 2.5em;
     margin-right: 1em;
@@ -885,6 +871,93 @@ html {
     padding: 1.5em;
 }
 
+
+/* IMAGE SLIDER SECTION */
+
+.img-slider--text {
+    padding: 6em 0 1em 0;
+}
+
+.img-slider--follow-us {
+    line-height: normal;
+    margin-bottom: .5em;
+}
+
+.img-slider--melody-genie {
+    line-height: normal;
+    margin-bottom: .3em;
+}
+
+.img-slider--image-cnt {
+    padding-bottom: 7em;
+    column-gap: 1em;
+}
+
+
+/* LYRICS SECTION */
+
+.lyrics {
+    flex-direction: column;
+    height: auto;
+}
+
+.lyrics--left {
+    width: 100%;
+    padding-right: 0;
+}
+
+.lyrics--subscribe-title {
+    font-size: var(--fs-h2);
+    font-size: 3rem;
+    line-height: normal;
+    margin-bottom: .5em;
+}
+
+.lyrics--subscribe-subtitle {
+    font-size: 2rem;
+    line-height: 120%;
+    margin-bottom: 1em;
+}
+
+.lyrics--email-label {
+    font-size: 2.5rem;
+    line-height: normal;
+}
+
+.lyrics--email-input {
+    padding: .5em 1em;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    line-height: normal;
+}
+
+.lyrics--subscribe-btn {
+    padding: .5em .5em;
+    border-radius: 16px;
+    margin-bottom: 2em;
+    font-size: 2.5rem;
+    line-height: 120%;
+}
+
+.lyrics--cnt {
+    padding: 1.5em 2em;
+}
+
+.lyrics--title {
+    font-size: 3rem;
+    line-height: 120%;
+    margin-bottom: .5em;
+}
+
+.lyrics--text {
+    font-size: 1.75rem;
+    line-height: 120%;
+    margin-bottom: 1em;
+}
+
+.lyrics--right {
+    width: 100%;
+}
 
 
 }
