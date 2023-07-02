@@ -754,6 +754,11 @@ html {
     height: 20em;
 }
 
+.media-player--cnt {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
 .media-player--lower-section {
     padding: 1.5em 1em;
     column-gap: 1em;
@@ -787,7 +792,7 @@ html {
 /* TEXT SLIDER SECTION */
 
 .txt-slider {
-    padding: 18em 0 0 0;
+    padding: 18em 0 3em 0;
 }
 
 .txt-slider--cnt {
@@ -810,27 +815,26 @@ html {
 
 .about {
     flex-direction: column;
-    /* position: relative; */
+    position: relative;
     padding-bottom: 7em;
 }
 
 .about--left,
 .about--right {
-    position: absolute;
+    /* position: absolute; */
     position: unset;
 }
 
 .about--left {
     width: 55%;
-    margin-left: 0;
     margin: 0 auto;
-    /* left: 0; */
-    /* top: 7em; */
     background: var(--clr-violet);
     border-radius: 6.732px;
     padding: 1em;
-    position: relative;
-    top: 50em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 41.5em;
 }
 
 .about--center {
@@ -898,6 +902,7 @@ html {
 .lyrics {
     flex-direction: column;
     height: auto;
+    padding-bottom: 3em;
 }
 
 .lyrics--left {
@@ -939,7 +944,7 @@ html {
 }
 
 .lyrics--cnt {
-    padding: 1.5em 2em;
+    padding: 3em;
 }
 
 .lyrics--title {
@@ -958,5 +963,42 @@ html {
     width: 100%;
 }
 
+
+/* FOOTER */
+
+.footer {
+    max-height: 14em;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer--title-cnt {
+    margin-right: 1.5em;
+}
+
+.footer--title {
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+.footer--heading {
+    font-size: 2.25rem;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.footer--link {
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+.footer--blog-cnt {
+    margin-right: 2em;
+}
+
+.footer--contact-cnt {
+    margin-right: 0;
+}
 
 }
