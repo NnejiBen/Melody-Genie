@@ -218,10 +218,6 @@ img {
     max-width: 6.75em;
 }
 
-.hero--card-artist-cnt {
-
-}
-
 .hero--card-artist {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
@@ -357,7 +353,7 @@ img {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; */
-    animation: marquee 10s infinite linear;
+    /* animation: marquee 10s infinite linear; */
 }
 
 @keyframes marquee {
@@ -755,57 +751,60 @@ html {
 /* MEDIA PLAYER SECTION */
 
 .media-player {
-    background: var(--clr-green);
     height: 20em;
 }
 
-.media-player--cnt {
-    position: relative;
-}
-
 .media-player--lower-section {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    border-radius: 0px 0px 16px 16px;
-    background: rgba(0, 0, 0, 0.80);
-    padding: 4em 2em;
+    padding: 1.5em 1em;
+    column-gap: 1em;
 }
 
 .media-player--artist {
-    font-family: var(--ff-oswald);
-    font-size: var(--fs-h4);
-    font-weight: var(--fw-extra-bold);
-    line-height: 120%;
-    color: var(--clr-light);
-    margin-bottom: .3em;
+    font-size: 1rem;
+    margin-bottom: .5em;
 }
 
 .media-player--song-title {
-    font-family: var(--ff-arimo);
-    font-size: var(--fs-p-medium);
-    font-weight: var(--fw-extra-bold);
-    line-height: 120%;
-    color: var(--clr-light);
+    font-size: .5rem;
 }
 
 .control-and-progress-bar-cnt {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
-    margin: 0 auto;
+    width: 50%;
 }
 
 .control-cnt {
-    display: flex;
-    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    column-gap: 1em;
 }
 
 .shuffle-cnt {
     margin-left: auto;
+    width: 5%;
 }
+
+
+/* TEXT SLIDER SECTION */
+
+.txt-slider {
+    padding: 18em 0 0 0;
+}
+
+.txt-slider--cnt {
+    margin: auto 2em auto 2em;
+}
+
+.txt-slider--text {
+    font-size: 2rem;
+    line-height: normal;
+    padding-right: .5em;
+    -webkit-text-stroke-width: 1px;
+}
+
+.txt-slider--star {
+    width: 35%;
+}
+
 
 /* ABOUT SECTION */
 
