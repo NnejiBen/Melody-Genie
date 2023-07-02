@@ -349,10 +349,6 @@ img {
     align-items: center;
     margin: auto 6em auto 6em;
     white-space: nowrap;
-    /* animation-name: marquee;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; */
     /* animation: marquee 10s infinite linear; */
 }
 
