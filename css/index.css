@@ -672,7 +672,7 @@ html {
 /* HEADER SECTION */
 
 .header {
-    padding-top: 1.5em;
+    padding-top: 2em;
     padding-bottom: 2em;
 }
 
@@ -717,7 +717,7 @@ html {
 .hero--body {
     font-size: 2rem;
     line-height: 120%;
-    margin-bottom: 1.8em;
+    margin-bottom: 1.6em;
 }
 
 .hero--btn {
@@ -728,6 +728,7 @@ html {
 .hero--right {
     width: 100%;
     transform: translate(0, 0);
+    margin-bottom: .5em;
 }
 
 .hero--card {
@@ -755,7 +756,7 @@ html {
 /* MEDIA PLAYER SECTION */
 
 .media-player {
-    height: 20em;
+    height: 19em;
 }
 
 .media-player--cnt {
@@ -764,7 +765,7 @@ html {
 }
 
 .media-player--lower-section {
-    padding: 1.5em 1em;
+    padding: 2em 1em;
     column-gap: 1em;
 }
 
@@ -774,7 +775,7 @@ html {
 }
 
 .media-player--song-title {
-    font-size: .5rem;
+    font-size: .7rem;
 }
 
 .control-and-progress-bar-cnt {
@@ -782,7 +783,7 @@ html {
 }
 
 .control-cnt {
-    width: 30%;
+    width: 35%;
     margin: 0 auto;
     column-gap: 1em;
 }
@@ -796,7 +797,7 @@ html {
 /* TEXT SLIDER SECTION */
 
 .txt-slider {
-    padding: 16em 0 3em 0;
+    padding: 18em 0 4em 0;
 }
 
 .txt-slider--cnt {
@@ -821,7 +822,7 @@ html {
     flex-direction: column;
     /* position: relative; */
     position: unset;
-    padding-bottom: 7em;
+    padding-bottom: 5.5em;
 }
 
 .about--left,
@@ -876,12 +877,8 @@ html {
 }
 
 .about--body {
-    font-family: var(--ff-arimo);
-    font-size: var(--fs-p-large);
-    font-weight: var(--fw-normal);
-    line-height: 22px;
-    letter-spacing: 0.5px;
-    color: var(--clr-grey-02);
+    font-size: 2rem;
+    line-height: 120%;
     padding: 1.5em;
 }
 
@@ -889,7 +886,7 @@ html {
 /* IMAGE SLIDER SECTION */
 
 .img-slider--text {
-    padding: 6em 0 1em 0;
+    padding: 7em 0 1em 0;
 }
 
 .img-slider--follow-us {
@@ -903,7 +900,7 @@ html {
 }
 
 .img-slider--image-cnt {
-    padding-bottom: 7em;
+    padding-bottom: 5em;
     column-gap: 1em;
 }
 
@@ -925,13 +922,13 @@ html {
     font-size: var(--fs-h2);
     font-size: 3rem;
     line-height: normal;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
 }
 
 .lyrics--subscribe-subtitle {
     font-size: 2rem;
     line-height: 120%;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 .lyrics--email-label {
@@ -940,14 +937,14 @@ html {
 }
 
 .lyrics--email-input {
-    padding: .5em 1em;
+    padding: .7em 1em;
     margin-bottom: 1.5em;
     font-size: 2em;
     line-height: normal;
 }
 
 .lyrics--subscribe-btn {
-    padding: .5em .5em;
+    padding: .7em .5em;
     border-radius: 16px;
     margin-bottom: 2em;
     font-size: 2.5rem;
