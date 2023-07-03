@@ -70,7 +70,8 @@ img {
 
 .header {
     background-color: var(--clr-green);
-    padding: 2em 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,10 +104,6 @@ img {
     padding-right: 3em;
 }
 
-.nav-item--subscribe {
-    padding-right: 0;
-}
-
 .nav-link {
     text-decoration: none;
 }
@@ -115,7 +112,7 @@ img {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
     font-weight: var(--fw-bold);
-    color: var(--clr-dark);
+    color: var(--clr-grey-01);
 }
 
 .nav-link--blog {
@@ -128,7 +125,6 @@ img {
 .header--subscribe-cnt {
     display: flex;
     align-items: center;
-    /* width: 100%; */
 }
 
 .header--search-img {
@@ -145,6 +141,10 @@ img {
     border-radius: 16px;
     padding: .3em 1em;
     text-decoration: none;
+}
+
+.hamburger {
+    visibility: hidden;
 }
 
 
