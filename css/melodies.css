@@ -521,18 +521,95 @@ html {
 }
 
 
+/* RELATED SONGS SECTION */
+
+.related-songs {
+    padding: 5em 2em 6em 2em;
+}
+
+.related-songs--section-title {
+    font-size: 4rem;
+    margin-bottom: .7em;
+}
+
+.related--cnt {
+    flex-direction: column;
+    column-gap: 0;
+}
+
+.related--song-title {
+    font-size: 2.5rem;
+    margin: .8em 0 .4em 0;
+}
+
+.related--artist {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
 
 
+/* TRENDING SECTION */
+
+.trending {
+    padding: 5em 2em 6em 2em;
+}
+
+.trending--title {
+    font-size: 4rem;
+    margin-bottom: .8em;
+}
+
+.trending--cnt {
+    flex-direction: column;
+    column-gap: 0;
+}
+
+.trending--song-title {
+    font-size: 2.5rem;
+    margin: .8em 0 .4em 0;
+}
+
+.trending--artist {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
 
 
+/* MEDIA PLAYER SECTION */
 
+.media-player {
+    height: 43em;
+    padding-top: 5em;
+}
 
+.media-player--lower-section {
+    padding: 2em 1em;
+    column-gap: 1em;
+}
 
+.media-player--artist {
+    font-size: 1rem;
+    margin-bottom: .5em;
+}
 
+.media-player--song-title {
+    font-size: .7rem;
+}
 
+.control-and-progress-bar-cnt {
+    width: 50%;
+}
 
+.control-cnt {
+    width: 10%;
+    margin: 0 auto;
+    column-gap: 1em;
+}
 
-
+.shuffle-cnt {
+    margin-left: auto;
+    width: 5%;
+}
 
 
 /* FOOTER */
