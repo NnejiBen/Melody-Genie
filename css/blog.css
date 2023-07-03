@@ -437,6 +437,8 @@ img {
 
 .footer--title-cnt {
     margin-right: 9em;
+    display: flex;
+    column-gap: 1em;
 }
 
 .footer--title {
