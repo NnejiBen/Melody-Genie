@@ -112,7 +112,7 @@ img {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
     font-weight: var(--fw-bold);
-    color: var(--clr-grey-01);
+    color: var(--clr-dark-03);
 }
 
 .nav-link--blog {
@@ -195,7 +195,6 @@ img {
     line-height: 120%;
     color: var(--clr-dark);
     margin-bottom: 2em;
-
 }
 
 .hero--btn {
@@ -583,7 +582,7 @@ html {
 }
 
 .media-player--lower-section {
-    padding: 2em 1em;
+    padding: 2em 1.5em;
     column-gap: 1em;
 }
 
