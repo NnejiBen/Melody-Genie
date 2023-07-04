@@ -659,11 +659,15 @@ html {
     font-size: 1.75rem;
 }
 
+.lyrics--item-img-cnt {
+    padding: 1em;
+}
+
 
 /* RELATED SONGS SECTION */
 
 .related-songs {
-    padding: 6em 2em 8em 2em;
+    padding: 6em 2em 10em 2em;
 }
 
 .related-songs--title {
@@ -687,11 +691,47 @@ html {
 }
 
 
+/* MEDIA PLAYER SECTION */
 
+.media-player {
+    height: 47.5em;
+    padding-top: 5.5em;
+}
 
+.media-player--cnt {
+    border-radius: 20px;
+    overflow: hidden;
+}
 
+.media-player--lower-section {
+    padding: 2em 1.5em;
+    column-gap: 1em;
+}
 
+.media-player--artist {
+    font-size: 1rem;
+    margin-bottom: .5em;
+}
 
+.media-player--song-title {
+    font-size: .7rem;
+}
+
+.control-and-progress-bar-cnt {
+    width: 50%;
+    row-gap: 1em;
+}
+
+.control-cnt {
+    width: 10%;
+    margin: 0 auto;
+    column-gap: 1em;
+}
+
+.shuffle-cnt {
+    margin-left: auto;
+    width: 5%;
+}
 
 
 /* FOOTER */
