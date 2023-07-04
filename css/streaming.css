@@ -70,7 +70,8 @@ img {
 
 .header {
     background-color: var(--clr-green);
-    padding: 2em 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,10 +104,6 @@ img {
     padding-right: 3em;
 }
 
-.nav-item--subscribe {
-    padding-right: 0;
-}
-
 .nav-link {
     text-decoration: none;
 }
@@ -128,7 +125,6 @@ img {
 .header--subscribe-cnt {
     display: flex;
     align-items: center;
-    /* width: 100%; */
 }
 
 .header--search-img {
@@ -145,6 +141,10 @@ img {
     border-radius: 16px;
     padding: .3em 1em;
     text-decoration: none;
+}
+
+.hamburger {
+    visibility: hidden;
 }
 
 
@@ -239,6 +239,14 @@ img {
                 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
 }
 
+.streaming--right > p {
+    font-family: var(--ff-arimo);
+    font-size: var(--fs-p-small);
+    font-weight: var(--fw-normal);
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: var(--clr-dark-02);
+}
 
 /* LYRICS SECTION */
 
@@ -342,6 +350,10 @@ img {
 .related--cnt {
     display: flex;
     column-gap: 2.5em;
+}
+
+.related--img {
+    width: 100%;
 }
 
 .related--song-title {
@@ -478,4 +490,250 @@ img {
 
 .footer--contact-cnt {
     margin-right: 10em;
+}
+
+
+/* RESPONSIVE MODE */
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+
+/* GENERAL STYLES */
+
+html {
+    font-size: .5rem;
+}
+
+.section {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+/* HEADER SECTION */
+
+.header {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.logo {
+    max-width: 2.5em;
+    margin-right: 1em;
+}
+
+.header--navbar {
+    display: none;
+}
+
+.header--subscribe-cnt {
+    column-gap: 2em;
+}
+
+.header--subscribe-btn {
+    display: none;
+}
+
+.hamburger {
+    visibility: visible;
+}
+
+
+/* STREAMING SECTION */
+
+.streaming {
+    padding: 3em 0 6em 0;
+    overflow: hidden;
+}
+
+.streaming--cnt {
+    /* position: relative; */
+    position: unset;
+    flex-direction: column;
+    /* left: 0; */
+}
+
+.streaming--left {
+    max-width: 100%;
+    margin-bottom: 3em;
+}
+
+.streaming--song-title-cnt,
+.streaming--progress-bar-cnt {
+    padding: 0 3.5em;
+}
+
+.streaming--controls-cnt {
+    padding: 0 7em;
+}
+
+.streaming--artist {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+.streaming--song-title {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.streaming--progress-bar-cnt {
+    margin-bottom: 1.5em;
+}
+
+.back-img,
+.forward-img {
+    width: 3em;
+}
+
+.play-img {
+    width: 3.5em;
+}
+
+.streaming--controls-col-02 {
+    column-gap: 2em;
+}
+
+.streaming--controls-col-01,
+.streaming--controls-col-03 {
+    width: 5%;
+}
+
+.streaming--right {
+    position: unset;
+    padding: 4em;
+    min-height: 20em;
+}
+
+.streaming--right > p {
+    font-size: 1.6rem;
+}
+
+
+/* LYRICS SECTION */
+
+.lyrics {
+    margin: 6em auto 5.5em auto;
+}
+
+.lyrics--title {
+    font-size: 3rem;
+    margin-bottom: .5em;
+}
+
+.lyrics--subtitle {
+    font-size: 2rem;
+    margin-bottom: 2em;
+}
+
+.lyrics--lyrics-cnt {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+}
+
+.lyrics--row-one,
+.lyrics--row-two {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 3em;
+}
+
+.lyrics--item {
+    width: 100%;
+}
+
+.lyrics--item-text-cnt {
+    padding: 4em;
+}
+
+.lyrics--item-title {
+    font-size: 3rem;
+    margin-bottom: .5em;
+}
+
+.lyrics--item-body {
+    font-size: 1.75rem;
+}
+
+
+/* RELATED SONGS SECTION */
+
+.related-songs {
+    padding: 6em 2em 8em 2em;
+}
+
+.related-songs--title {
+    font-size: 4rem;
+    margin-bottom: .8em;
+}
+
+.related--cnt {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 5em;
+}
+
+.related--song-title {
+    font-size: 2.5rem;
+    margin: 1em 0 .4em 0;
+}
+
+.related--artist {
+    font-size: 2rem; 
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+    max-height: 14em;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer--title-cnt {
+    margin-right: 1.5em;
+    align-items: center;
+}
+
+.footer--title {
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+.footer--logo-cnt {
+    width: 10%;
+}
+
+.footer--heading {
+    font-size: 2.25rem;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.footer--link {
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+.footer--blog-cnt {
+    margin-right: 2em;
+}
+
+.footer--contact-cnt {
+    margin-right: 0;
+}
+
 }
