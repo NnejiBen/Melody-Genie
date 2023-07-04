@@ -694,8 +694,8 @@ html {
 /* MEDIA PLAYER SECTION */
 
 .media-player {
-    height: 47.5em;
-    padding-top: 5.5em;
+    height: auto;
+    padding: 5.5em 2em;
 }
 
 .media-player--cnt {
