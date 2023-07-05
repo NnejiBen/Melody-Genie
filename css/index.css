@@ -81,6 +81,7 @@ img {
     /* height: auto; */
     padding: 1.5em 6em;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
