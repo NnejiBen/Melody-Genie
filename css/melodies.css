@@ -555,6 +555,10 @@ html {
     padding-bottom: 4em;
 }
 
+.logo-cnt {
+    column-gap: 1em;
+}
+
 .logo {
     max-width: 2.5em;
     margin-right: 1em;
