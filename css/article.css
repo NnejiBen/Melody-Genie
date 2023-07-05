@@ -638,7 +638,7 @@ html {
 
 .header {
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 5em;
 }
 
 .logo {
@@ -646,20 +646,8 @@ html {
     margin-right: 1em;
 }
 
-.header--navbar {
-    display: none;
-}
-
 .header--subscribe-cnt {
     column-gap: 2em;
-}
-
-.header--subscribe-btn {
-    display: none;
-}
-
-.hamburger {
-    visibility: visible;
 }
 
 

@@ -115,7 +115,7 @@ img {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
     font-weight: var(--fw-bold);
-    color: var(--clr-grey-01);
+    color: var(--clr-dark-03);
 }
 
 .nav-link--blog {
@@ -552,7 +552,7 @@ html {
 
 .header {
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 5em;
 }
 
 .logo {
@@ -560,20 +560,8 @@ html {
     margin-right: 1em;
 }
 
-.header--navbar {
-    display: none;
-}
-
 .header--subscribe-cnt {
     column-gap: 2em;
-}
-
-.header--subscribe-btn {
-    display: none;
-}
-
-.hamburger {
-    visibility: visible;
 }
 
 
