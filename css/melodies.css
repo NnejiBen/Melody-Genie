@@ -556,7 +556,7 @@ html {
 }
 
 .logo-cnt {
-    column-gap: 1em;
+    column-gap: .5em;
 }
 
 .logo {
