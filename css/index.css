@@ -678,6 +678,7 @@ img {
 
     .nav-menu {
         justify-content: unset;
+        padding: 1.5em 2em;
     }
 
     .logo-cnt {
@@ -741,7 +742,7 @@ img {
         margin: 0 auto;
         border: none;
         height: 1px;
-        background-color: var(--clr-dark-02);
+        background-color: var(--clr-grey-03);
     }
 
     .mobile-nav-link {

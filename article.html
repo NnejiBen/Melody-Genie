@@ -7,23 +7,44 @@
     <link rel="stylesheet" href="/css/article.css">
 </head>
 <body>
+
     <!-- HEADER SECTION -->
     <header class="section header">
-        <div class="header--logo-cnt">
-            <a href="index.html"><img src="img/logo.svg" alt="" class="logo"></a>
-            <a href="index.html" class="company-name">THE MELODY GENIE</a>
-        </div>
-        <nav class="header--navbar">
-            <ul>
-                <li class="nav-item"><a href="melodies.html" class="nav-link nav-link--melodies">Melodies</a></li>
-                <li class="nav-item"><a href="blog.html" class="nav-link nav-link--blog">Blog</a></li>
-            </ul>
+        <nav class="nav-menu">
+            <div class="logo-cnt">
+                <div>
+                    <a href="index.html"><img src="img/logo.svg" alt="" class="logo"></a>
+                </div>            
+                <a href="index.html" class="company-name">THE MELODY GENIE</a> 
+            </div>
+            <div class="melodies-and-blog-cnt">
+                <a href="melodies.html" class="nav-link nav-link--melodies">Melodies</a>
+                <a href="blog.html" class="nav-link nav-link--blog">Blog</a>
+            </div>
+            <div class="search-and-sub-cnt">
+                <div class="search-cnt">
+                    <a href="#"><img src="img/search.svg" alt="" class="header--search-img"></a>
+                </div>
+                <a href="#" class="header--subscribe-btn">Subscribe</a>
+            </div>
+            <div class="mobile-nav-menu">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <hr>
+                <a href="melodies.html" class="mobile-nav-link">Melodies</a>
+                <hr>
+                <a href="streaming.html" class="mobile-nav-link">Stream</a>
+                <hr>
+                <a href="blog.html" class="mobile-nav-link">Blog</a>
+                <hr>
+                <a href="#" class="mobile-nav-link">Subscribe</a>
+                <hr>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-        <div class="header--subscribe-cnt">
-            <a href="#"><img src="img/search.svg" alt="" class="header--search-img"></a>
-            <a href="#" class="header--subscribe-btn">Subscribe</a>
-            <img src="img/hamburger.svg" alt="" class="hamburger">
-        </div>
     </header>
 
     <main>
@@ -202,5 +223,8 @@
             </ul>
         </div>
     </footer>
+
+    <script src="index.js"></script>
+    
 </body>
 </html>
