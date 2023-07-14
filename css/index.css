@@ -220,11 +220,10 @@ img {
 .hero--right {
     width: 50%;
     transform: translate(0, -4em);
-
 }
 
 .hero--card {
-    width: max-content;
+    /* width: max-content; */
     background: var(--clr-light);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 
     0px 5px 10px rgba(51, 51, 51, 0.25), 
@@ -357,6 +356,10 @@ img {
     margin-bottom: 2em;
 }
 
+.progress-bar {
+    width: 100%;
+}
+
 .controls-and-reactions-cnt {
     width: 100%;
     display: flex;
@@ -368,6 +371,21 @@ img {
     display: flex;
     column-gap: 2em;
     align-items: center;
+}
+
+.play-cnt {
+    height: 4em;
+    width: 4em;
+    background: var(--clr-yellow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#ctrlIcon {
+    font-size: 3rem;
 }
 
 .reactions-cnt {
@@ -399,7 +417,7 @@ img {
     display: flex;
     align-items: center;
     margin: auto 6em auto 6em;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     /* animation: marquee 10s infinite linear; */
 }
 
