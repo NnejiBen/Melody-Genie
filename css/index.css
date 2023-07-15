@@ -412,6 +412,13 @@ img {
     column-gap: 2em;
 }
 
+.fa-repeat,
+.fa-shuffle,
+.fa-heart {
+    color: var(--clr-light);
+    cursor: pointer;
+}
+
 
 /* TEXT SLIDER SECTION */
 
@@ -922,7 +929,6 @@ html {
 /* MEDIA PLAYER SECTION */
 
 .media-player {
-    background: var(--clr-green);
     max-height: 22.5em;
 }
 
@@ -976,11 +982,6 @@ html {
 .reactions-cnt {
     display: flex;
     column-gap: 2em;
-}
-
-.fa-shuffle,
-.fa-heart {
-    color: var(--clr-light);
 }
 
 

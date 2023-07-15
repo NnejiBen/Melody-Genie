@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Melody Genie - Blog</title>
     <link rel="stylesheet" href="/css/blog.css">
+    <script src="https://kit.fontawesome.com/c47d6eb686.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -301,28 +302,50 @@
 
         <!-- MEDIA PLAYER SECTION -->
         <section class="section media-player">
-            <div class="media-player--cnt">
+            <div class="media-player--cnt" id="music-container">
+                <!-- Upper Section -->
                 <div class="media-player--upper-section">
-                    <img src="img/blog-media-player.svg" alt="">
+                    <img src="img/blog-media-player.svg" alt="" class="media-player--cover-img">
                 </div>
+                <!-- Lower Section -->
                 <div class="media-player--lower-section">
-                    <div>
-                        <h4 class="media-player--artist">King of All Series</h4>
-                        <p class="media-player--song-title">Lona Collections of All Time</p>
+                    <!-- Artist and Song Title -->
+                    <div class="artist-and-title-cnt">
+                        <h4 class="media-player--artist">Vanessa Carlton</h4>
+                        <p class="media-player--song-title" id="title"></p>                        
                     </div>
-                    <div class="control-and-progress-bar-cnt">
-                        <div>
-                            <img src="img/streaming-progress-bar.svg" alt="">
+                    <!-- Progress Bar -->
+                    <div class="progress-bar-cnt" id="progress-container">
+                        <input type="range" value="0" class="progress-bar" id="progress">
+                    </div>
+                    <div class="controls-and-reactions-cnt">
+                        <!-- Controls -->
+                        <div class="controls-cnt">
+                            <button id="prev" class="control-btn prev-btn" onclick="prevSong()">
+                                <i class="fa-solid fa-backward-step"></i>
+                            </button>
+                            <button class="control-btn play-btn" onclick="playPause()">
+                                <i class="fa-solid fa-play" id="play"></i>
+                            </button>
+                            <button id="next" class="control-btn next-btn" onclick="nextSong()">
+                                <i class="fa-solid fa-forward-step"></i>
+                            </button>
                         </div>
-                        <div class="control-cnt">
-                            <img src="img/streaming-back.svg" alt="">
-                            <img src="img/streaming-play.svg" alt="">
-                            <img src="img/streaming-forward.svg" alt="">
+                        <!-- Reactions -->
+                        <div class="reactions-cnt">
+                            <div class="repeat-cnt">
+                                <i class="fa-solid fa-repeat"></i>
+                            </div>
+                            <div class="shuffle-cnt">
+                                <i class="fa-solid fa-shuffle"></i>
+                            </div>
+                            <div class="heart-cnt">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
                         </div>
                     </div>
-                    <div class="shuffle-cnt">
-                        <img src="img/media-player-shuffle.svg" alt="">
-                    </div>
+                    <!-- Songs -->
+                    <audio src="" id="audio"></audio>
                 </div>
             </div>
         </section>
@@ -351,7 +374,7 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
     
 </body>
 </html>

@@ -20,9 +20,6 @@ let progress = document.getElementById("progress");
 let audio = document.getElementById("audio");
 let playBtn = document.getElementById("play");
 
-
-
-
 // Songs
 const songs = ['A Thousand Miles', 'Ordinary Day', 'Pretty Baby'];
 
@@ -77,7 +74,6 @@ function prevSong() {
     }
   
     loadSong(songs[songIndex]);
-  
     playSong();
   }
 
@@ -90,6 +86,5 @@ function nextSong() {
     }
   
     loadSong(songs[songIndex]);
-  
     playSong();
   }
