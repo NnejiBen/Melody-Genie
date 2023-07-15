@@ -1,4 +1,4 @@
-// Mobile Menu
+// MOBILE MENU
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".mobile-nav-menu");
 
@@ -13,38 +13,83 @@ document.querySelectorAll(".mobile-nav-link").forEach(
     navMenu.classList.remove("active");
 }))
 
-//Media Player
+
+//MEDIA PLAYER
 
 let progress = document.getElementById("progress");
-let song = document.getElementById("song");
-let ctrlIcon = document.getElementById("ctrlIcon");
+let audio = document.getElementById("audio");
+let playBtn = document.getElementById("play");
 
-song.onloadedmetadata = function() {
-    progress.max = song.duration;
-    progress.value = song.currentTime;
+
+
+
+// Songs
+const songs = ['A Thousand Miles', 'Ordinary Day', 'Pretty Baby'];
+
+// Keep track of song
+let songIndex = 2;
+
+// Initially load song details into DOM
+loadSong(songs[songIndex]);
+
+// Update song details
+function loadSong(song) {
+  title.innerText = song;
+  audio.src = `music/${song}.mp3`;
+}
+
+audio.onloadedmetadata = function() {
+    progress.max = audio.duration;
+    progress.value = audio.currentTime;
 }
 
 function playPause() {
-    if (ctrlIcon.classList.contains("fa-pause")) {
-        song.pause();
-        ctrlIcon.classList.remove("fa-pause");
-        ctrlIcon.classList.add("fa-play");
+    if (playBtn.classList.contains("fa-pause")) {
+        audio.pause();
+        playBtn.classList.remove("fa-pause");
+        playBtn.classList.add("fa-play");
     } else {
-        song.play();
-        ctrlIcon.classList.add("fa-pause");
-        ctrlIcon.classList.remove("fa-play");
+        audio.play();
+        playBtn.classList.add("fa-pause");
+        playBtn.classList.remove("fa-play");
     }
 }
 
-if (song.play()) {
+if (audio.play()) {
     setInterval(()=> {
-        progress.value = song.currentTime;
+        progress.value = audio.currentTime;
     },500);
 }
 
 progress.onchange = function() {
-    song.play();
-    song.currentTime = progress.value;
-    ctrlIcon.classList.add("fa-pause");
-    ctrlIcon.classList.remove("fa-play");
+    audio.play();
+    audio.currentTime = progress.value;
+    playBtn.classList.add("fa-pause");
+    playBtn.classList.remove("fa-play");
 }
+
+// Previous song
+function prevSong() {
+    songIndex--;
+  
+    if (songIndex < 0) {
+      songIndex = songs.length - 1;
+    }
+  
+    loadSong(songs[songIndex]);
+  
+    playSong();
+  }
+
+  // Next song
+function nextSong() {
+    songIndex++;
+  
+    if (songIndex > songs.length - 1) {
+      songIndex = 0;
+    }
+  
+    loadSong(songs[songIndex]);
+  
+    playSong();
+  }

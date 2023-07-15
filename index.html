@@ -85,46 +85,47 @@
 
         <!-- MEDIA PLAYER SECTION -->
         <section class="section media-player">
-            <div class="media-player--cnt">
+            <div class="media-player--cnt" id="music-container">
                 <!-- Upper Section -->
                 <div class="media-player--upper-section">
-                    <img src="img/home-media-player.svg" alt="">
+                    <img src="img/home-media-player.svg" alt="" class="media-player--cover-img">
                 </div>
                 <!-- Lower Section -->
                 <div class="media-player--lower-section">
+                    <!-- Artist and Song Title -->
                     <div class="artist-and-title-cnt">
-                        <h4 class="media-player--artist">King of All Series</h4>
-                        <p class="media-player--song-title">Lona Collections of All Time</p>                        
+                        <h4 class="media-player--artist">Vanessa Carlton</h4>
+                        <p class="media-player--song-title" id="title">Lona Collections of All Time</p>                        
                     </div>
-                    <div class="progress-bar-cnt">
+                    <!-- Progress Bar -->
+                    <div class="progress-bar-cnt" id="progress-container">
                         <input type="range" value="0" class="progress-bar" id="progress">
                     </div>
                     <div class="controls-and-reactions-cnt">
+                        <!-- Controls -->
                         <div class="controls-cnt">
-                            <div>
-                                <img src="img/streaming-back.svg" alt="" class="back-img">
-                            </div>
-                            <div class="play-cnt" onclick="playPause()">
-                                <!-- <img src="img/streaming-play.svg" alt="" class="play-img" id="ctrlIcon"> -->
-                                <i class="fa-solid fa-play" id="ctrlIcon"></i>
-                            </div>
-                            <div>
-                                <img src="img/streaming-forward.svg" alt="" class="forward-img">
-                            </div>
+                            <button id="prev" class="control-btn prev-btn" onclick="prevSong()">
+                                <i class="fa-solid fa-backward-step"></i>
+                            </button>
+                            <button class="control-btn play-btn" onclick="playPause()">
+                                <i class="fa-solid fa-play" id="play"></i>
+                            </button>
+                            <button id="next" class="control-btn next-btn" onclick="nextSong()">
+                                <i class="fa-solid fa-forward-step"></i>
+                            </button>
                         </div>
+                        <!-- Reactions -->
                         <div class="reactions-cnt">
                             <div class="shuffle-cnt">
-                                <img src="img/media-player-shuffle.svg" alt="" class="shuffle-img">
+                                <i class="fa-solid fa-shuffle"></i>
                             </div>
                             <div class="heart-cnt">
-                                <img src="img/media-player-heart.svg" alt="" class="media-player-heart">
+                                <i class="fa-solid fa-heart"></i>
                             </div>
                         </div>
                     </div>
-                    <audio id="song">
-                        <source src="music/A Thousand Miles.mp3" type="audio/mpeg">
-                    </audio>
-                    <audio src="music/A Thousand Miles.mp3"></audio>
+                    <!-- Songs -->
+                    <audio src="music/a-thousand-miles.mp3" id="audio"></audio>
                 </div>
             </div>
         </section>
