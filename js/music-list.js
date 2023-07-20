@@ -38,5 +38,17 @@ let allMusic = [
         artist: "Vanessa Carlton",
         img: "",
         src: "a-thousand-miles"
+      },
+      {
+        name: "Ordinary Day",
+        artist: "Vanessa Carlton",
+        img: "",
+        src: "ordinary-day"
+      },
+      {
+        name: "Pretty Baby",
+        artist: "Vanessa Carlton",
+        img: "",
+        src: "pretty-baby"
       }
   ];

@@ -31,6 +31,7 @@
     --clr-grey-01:  #414242;
     --clr-grey-02:  #4A4747;
     --clr-grey-03:  #5F5F5F;
+    --clr-light-grey: #E5E5E5;
     --clr-yellow:  #FFB866;
     --clr-yellow-bg: #FFFDC2;
     --clr-orange: #FFE2C1;
@@ -352,10 +353,11 @@ img {
 }
 
 .progress-area {
-    height: 6px;
+    height: .2em;
     width: 100%;
     border-radius: 50px;
-    background: #f0f0f0;
+    background: var(--clr-light-grey);
+    /* background: var(--clr-light); */
     cursor: pointer;
     margin-bottom: 2em;
 }
@@ -365,7 +367,8 @@ img {
     width: 0%;
     position: relative;
     border-radius: inherit;
-    background: linear-gradient(90deg, var(--pink) 0%, var(--violet) 100%);
+    background: linear-gradient(90deg, var(--clr-pink) 0%, var(--clr-yellow) 100%);
+    /* background: var(--clr-pink); */
   }
 
   .progress-bar::before {
@@ -483,7 +486,7 @@ img {
     padding: 1em 0;
     margin-bottom: .2em;
     color: var(--clr-dark);
-    border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid var(--clr-light-grey);
     font-family: var(--ff-arimo);
     font-size: var(--fs-p-small);
   }
