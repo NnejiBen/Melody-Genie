@@ -1065,6 +1065,11 @@ html {
     font-weight: var(--fw-normal);
 }
 
+.current-time,
+.max-duration {
+    font-size: 1.5rem;
+}
+
 .controls {
     width: 70%;
     display: flex;
