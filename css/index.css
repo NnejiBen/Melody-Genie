@@ -1057,22 +1057,30 @@ html {
     display: flex;
 }
 
+.header .row {
+    font-size: 2rem;
+}
+
+.header #close {
+    font-size: 2rem;
+}
+
 .music-list {
     width: 70%;
     padding: .5em 1.5em;
-  }
+}
 
-  .music-list ul li {
+.music-list ul li {
     font-size: 1.2rem;
-  }
+}
 
-  .music-list ul li .row span {
+.music-list ul li .row span {
     font-size: 1.5rem;
-  }
+}
 
-  ul li .audio-duration {
+ul li .audio-duration {
     font-size: 1.5rem;
-  }
+}
 
 
 /* TEXT SLIDER SECTION */
