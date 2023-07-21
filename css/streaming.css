@@ -558,8 +558,9 @@ img {
 .music-list {
     position: absolute;
     background: var(--clr-green);
-    width: 30%;
+    width: 28%;
     right: 0;
+    bottom: 0;
     opacity: 0;
     pointer-events: none;
     padding: 1em 1.5em;
