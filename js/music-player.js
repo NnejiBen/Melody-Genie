@@ -234,5 +234,3 @@ function clicked(element){
   playMusic();
   playingSong();
 }
-
-
