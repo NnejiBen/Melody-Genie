@@ -167,6 +167,11 @@ mainAudio.addEventListener("ended", ()=>{
   }
 });
 
+//display music list title on mouseover
+moreMusicBtn.addEventListener("mouseover", () => {
+  moreMusicBtn.setAttribute("title", "Music list");
+})
+
 //show music list onclick of music icon
 moreMusicBtn.addEventListener("click", ()=>{
   musicList.classList.toggle("show");
