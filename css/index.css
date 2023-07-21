@@ -356,7 +356,6 @@ img {
     height: .3em;
     width: 100%;
     border-radius: 50px;
-    background: var(--clr-light-grey);
     background: var(--clr-grey-03);
     cursor: default;
     margin-bottom: 2em;
@@ -364,10 +363,8 @@ img {
 
 .progress-area .progress-bar {
     height: inherit;
-    width: 0%;
     position: relative;
     border-radius: inherit;
-    /* background: linear-gradient(90deg, var(--clr-pink) 0%, var(--clr-yellow) 100%); */
     background: var(--clr-light);
   }
 
@@ -375,11 +372,11 @@ img {
     background: var(--clr-green);
   }
 
-  .progress-bar::before {
+  .progress-area .progress-bar::before {
     content: "";
     position: absolute;
-    height: 12px;
-    width: 12px;
+    height: 0.75em;
+    width: 0.75em;
     border-radius: 50%;
     top: 50%;
     right: -5px;
@@ -389,6 +386,11 @@ img {
     transform: translateY(-50%);
     background: var(--clr-light);
     transition: opacity 0.2s ease;
+  }
+
+  .progress-area:hover .progress-bar::before {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .progress-area .song-timer {
