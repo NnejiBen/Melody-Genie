@@ -278,6 +278,32 @@ img {
     color: var(--clr-dark-02);
 }
 
+
+/* EMBED SECTION */
+
+.embed-music-album {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-pink);
+    padding: 2em 0;
+}
+
+.embed-music-track {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-orange);
+    padding: 2em 0;
+}
+
+.embed-music-track-small {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-green);
+    padding: 2em 0;
+}
+
+
+
 /* LYRICS SECTION */
 
 .lyrics {
