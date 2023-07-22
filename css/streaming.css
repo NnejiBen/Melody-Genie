@@ -566,6 +566,8 @@ img {
     position: absolute;
     background: var(--clr-green);
     width: 28%;
+    max-height: 30em;
+    overflow: auto;
     right: 0;
     bottom: 0;
     opacity: 0;
