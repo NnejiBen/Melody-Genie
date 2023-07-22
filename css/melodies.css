@@ -119,6 +119,13 @@ img {
     color: var(--clr-dark-03);
 }
 
+.nav-link--stream {
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+    color: var(--clr-grey-01);
+}
+
 .nav-link--blog {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h4);
