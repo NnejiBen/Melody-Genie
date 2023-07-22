@@ -288,11 +288,19 @@ img {
     padding: 2em 0;
 }
 
+.embed-music-album iframe {
+    width: 50%;
+}
+
 .embed-music-track {
     display: flex;
     justify-content: center;
     background-color: var(--clr-orange);
     padding: 2em 0;
+}
+
+.embed-music-track iframe {
+    width: 30%;
 }
 
 .embed-music-track-small {
@@ -302,6 +310,9 @@ img {
     padding: 2em 0;
 }
 
+.embed-music-track-small iframe {
+    width: 30%;
+}
 
 
 /* LYRICS SECTION */
@@ -928,6 +939,21 @@ html {
 
 .streaming--right > p {
     font-size: 1.6rem;
+}
+
+
+/* EMBED SECTION */
+
+.embed-music-album iframe {
+    width: 100%;
+}
+
+.embed-music-track iframe {
+    width: 90%;
+}
+
+.embed-music-track-small iframe {
+    width: 90%;
 }
 
 
