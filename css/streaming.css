@@ -912,8 +912,9 @@ html {
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 1.5em;
-  width: 1.5em;
+  height: 2em;
+  width: 2em;
+  margin: 1em .5em;
 }
 
 
