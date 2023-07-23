@@ -178,12 +178,73 @@ img {
 }
 
 
+/* EMBED SECTION */
+
+.embed-section {
+    background-color: var(--clr-green);
+    padding: 3.5em 0 6em 0;
+}
+
+.slideshow-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slides-container {
+    width: 45%;
+}
+
+.embed-music-album iframe {
+    width: 100%;
+}
+
+/* Hide slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, 
+.next {
+  cursor: pointer;
+  padding: 1em;
+  color: #bbb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+.prev:hover, 
+.next:hover {
+  color: #717171;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1em;
+  width: 1em;
+  margin: .5em .2em;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
 /* STREAMING SECTION */
 
 .streaming {
     background: var(--clr-green);
     padding: 3.5em 0 6em 0;
     overflow: hidden;
+    /* display: none; */
 }
 
 .streaming--cnt {
@@ -276,42 +337,6 @@ img {
     line-height: 120%;
     letter-spacing: 0.5px;
     color: var(--clr-dark-02);
-}
-
-
-/* EMBED SECTION */
-
-.embed-music-album {
-    display: flex;
-    justify-content: center;
-    background-color: var(--clr-pink);
-    padding: 2em 0;
-}
-
-.embed-music-album iframe {
-    width: 50%;
-}
-
-.embed-music-track {
-    display: flex;
-    justify-content: center;
-    background-color: var(--clr-orange);
-    padding: 2em 0;
-}
-
-.embed-music-track iframe {
-    width: 30%;
-}
-
-.embed-music-track-small {
-    display: flex;
-    justify-content: center;
-    background-color: var(--clr-green);
-    padding: 2em 0;
-}
-
-.embed-music-track-small iframe {
-    width: 30%;
 }
 
 
@@ -871,6 +896,25 @@ html {
 }
 
 
+/* EMBED SECTION */
+
+.slides-container {
+    width: 100%;
+}
+
+/* Next & previous buttons */
+.prev, 
+.next {
+  font-size: 3rem;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+
 /* STREAMING SECTION */
 
 .streaming {
@@ -939,21 +983,6 @@ html {
 
 .streaming--right > p {
     font-size: 1.6rem;
-}
-
-
-/* EMBED SECTION */
-
-.embed-music-album iframe {
-    width: 100%;
-}
-
-.embed-music-track iframe {
-    width: 90%;
-}
-
-.embed-music-track-small iframe {
-    width: 90%;
 }
 
 

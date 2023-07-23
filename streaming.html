@@ -49,6 +49,62 @@
     </header>
 
     <main>
+        <!-- EMBED SECTION -->
+        <section class="section embed-section">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Previous button -->
+                <div class="prev-container">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                </div>
+                <!-- Slides -->
+                <div class="slides-container">
+                    <!-- Slide 01 -->
+                    <div class="mySlides fade">
+                        <div class="embed-music-album">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1Hkbu7nahDPjp2pLWWRcvo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <!-- Slide 02 -->
+                    <div class="mySlides fade">
+                        <div class="embed-music-album">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3YdT8QvV4QvY4DfVJhxdcZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <!-- Slide 03 -->
+                    <div class="mySlides fade">
+                        <div class="embed-music-album">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5ILrArfIV0tMURcHJN8Q07?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <!-- Slide 04 -->
+                    <div class="mySlides fade">
+                        <div class="embed-music-album">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1bgvuzIjHq12cBsfXCoEBe?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <!-- Slide 05 -->
+                    <div class="mySlides fade">
+                        <div class="embed-music-album">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/710wXZlOutU4kV7BeLoVwl?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- Next button -->
+                <div class="next-container">
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </section>
 
         <!-- STREAMING SECTION -->
         <section class="section streaming">
@@ -89,29 +145,6 @@
             </div>
         </section>
 
-        <!-- EMBED SECTION -->
-
-        <div class="embed-music-album">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1Hkbu7nahDPjp2pLWWRcvo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-
-        <div class="embed-music-track">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4kKjD66XgNYi8vY4YspmFV?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-
-        <div class="embed-music-track-small">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4kKjD66XgNYi8vY4YspmFV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-
-        <div class="youtube-album">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zq1LHRKBCzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-
-        <iframe src="https://youtube.be/embed/zq1LHRKBCzo" width="860" height="415" frameborder="0" allowfullscreen=""></iframe>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cwkej79U3ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-        
         <!-- LYRICS SECTION -->
         <section class="section lyrics">
             <div class="lyrics--title-cnt">
@@ -325,6 +358,7 @@
     <script src="js/music-list.js"></script>
     <script src="js/music-player.js"></script>
     <script src="js/mobile-menu.js"></script>
+    <script src="js/embed-music.js"></script>
     
 </body>
 </html>
