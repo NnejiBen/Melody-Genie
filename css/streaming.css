@@ -900,12 +900,14 @@ html {
 
 .slides-container {
     width: 100%;
+    padding: 0 1em;
 }
 
 /* Next & previous buttons */
 .prev, 
 .next {
   font-size: 3rem;
+  padding: 0;
 }
 
 /* The dots/bullets/indicators */
