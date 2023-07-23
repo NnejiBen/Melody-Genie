@@ -906,15 +906,16 @@ html {
 /* Next & previous buttons */
 .prev, 
 .next {
-  font-size: 3rem;
-  padding: 0;
+  /* font-size: 3rem;
+  padding: 0; */
+  display: none;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 2em;
-  width: 2em;
-  margin: 1em .5em;
+  height: 3em;
+  width: 3em;
+  margin: 1em;
 }
 
 
