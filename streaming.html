@@ -52,31 +52,58 @@
 
         <!-- STREAMING SECTION -->
         <section class="section streaming">
-            <div class="section streaming--cnt">
+            <div class="wrapper">
+                <!-- Image Area -->
+                <div class="img-area">
+                    <img src="" alt="Music Image">
+                </div> 
                 <div class="streaming--left">
                     <div class="streaming--img-cnt">
                         <img src="images/streaming-img.svg" alt="">
                     </div>
-                    <div class="streaming--song-title-cnt">
-                        <h4 class="streaming--artist">Mary Jane</h4>
-                        <h3 class="streaming--song-title">Our Future is Bright and Clear</h3>
+
+                <!-- Lower Section -->
+                <div class="music-player--lower-section">
+                    <!-- Artist and Song Title -->
+                    <div class="song-details">
+                        <h4 class="name"></h4>
+                        <p class="artist"></p>                        
                     </div>
-                    <div class="streaming--progress-bar-cnt">
-                        <img src="img/streaming-progress-bar.svg" alt="">
-                    </div>
-                    <div class="streaming--controls-cnt">
-                        <div class="streaming--controls-col-01">
-                            <img src="images/streaming-shuffle.svg" alt="">
+                    <!-- Progress Bar -->
+                    <div class="progress-area">
+                        <div class="progress-bar">
+                            <audio id="main-audio" src=""></audio>
                         </div>
-                        <div class="streaming--controls-col-02">
-                            <img src="images/streaming-back.svg" alt="" class="back-img">
-                            <img src="images/streaming-play.svg" alt="" class="play-img">
-                            <img src="images/streaming-forward.svg" alt="" class="forward-img">
-                        </div>
-                        <div class="streaming--controls-col-03">
-                            <img src="images/streaming-heart.svg" alt="">
+                        <div class="song-timer">
+                            <span class="current-time">0:00</span>
+                            <span class="max-duration">0:00</span>
                         </div>
                     </div>
+                    <!-- Controls -->
+                    <div class="controls">
+                        <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+                        <i id="prev" class="material-icons">skip_previous</i>
+                        <div class="play-pause">
+                          <i class="material-icons play">play_arrow</i>
+                        </div>
+                        <i id="next" class="material-icons">skip_next</i>
+                        <i id="more-music" class="material-icons">queue_music</i>
+                    </div>
+                    <!-- Music List -->
+                    <div class="music-list">
+                        <div class="header">
+                          <div class="row">
+                            <i class= "list material-icons">queue_music</i>
+                            <span>Music List</span>
+                          </div>
+                          <i id="close" class="material-icons">close</i>
+                        </div>
+                        <ul>
+                          <!-- here li list are coming from js -->
+                        </ul>
+                      </div>
+                </div>
+
                 </div>
                 <div class="streaming--right">
                     <p>(Verse 1) <br>
@@ -88,7 +115,7 @@
                 </div>
             </div>
         </section>
-
+        
         <!-- LYRICS SECTION -->
         <section class="section lyrics">
             <div class="lyrics--title-cnt">
@@ -216,61 +243,6 @@
                     <img src="images/melodies-related-03.svg" alt="" class="related--img">
                     <h4 class="related--song-title">A Whole New World</h4>
                     <p class="related--artist">Peabo Bryson, Regina Belle (Aladdin's Theme)</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- MUSIC PLAYER SECTION -->
-        <section class="section music-player">
-            <div class="wrapper">
-                <!-- Image Area -->
-                <div class="img-area">
-                    <img src="" alt="Music Image">
-                </div>                  
-                <!-- Upper Section -->
-                <div class="music-player--upper-section">
-                    <img src="images/blog-music-player.svg" alt="" class="music-player--cover-img">
-                </div>
-                <!-- Lower Section -->
-                <div class="music-player--lower-section">
-                    <!-- Artist and Song Title -->
-                    <div class="song-details">
-                        <h4 class="name"></h4>
-                        <p class="artist"></p>                        
-                    </div>
-                    <!-- Progress Bar -->
-                    <div class="progress-area">
-                        <div class="progress-bar">
-                            <audio id="main-audio" src=""></audio>
-                        </div>
-                        <div class="song-timer">
-                            <span class="current-time">0:00</span>
-                            <span class="max-duration">0:00</span>
-                        </div>
-                    </div>
-                    <!-- Controls -->
-                    <div class="controls">
-                        <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
-                        <i id="prev" class="material-icons">skip_previous</i>
-                        <div class="play-pause">
-                          <i class="material-icons play">play_arrow</i>
-                        </div>
-                        <i id="next" class="material-icons">skip_next</i>
-                        <i id="more-music" class="material-icons">queue_music</i>
-                    </div>
-                    <!-- Music List -->
-                    <div class="music-list">
-                        <div class="header">
-                          <div class="row">
-                            <i class= "list material-icons">queue_music</i>
-                            <span>Music List</span>
-                          </div>
-                          <i id="close" class="material-icons">close</i>
-                        </div>
-                        <ul>
-                          <!-- here li list are coming from js -->
-                        </ul>
-                      </div>
                 </div>
             </div>
         </section>
