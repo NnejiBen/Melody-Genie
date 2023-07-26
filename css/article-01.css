@@ -331,6 +331,11 @@ img {
     line-height: 120%;
     color: var(--clr-dark-03);
     margin: 0 0 .7em 0;
+    text-decoration: none;
+}
+
+.blog--content-title:hover {
+    opacity: .8;
 }
 
 .blog--content-body {
@@ -343,7 +348,7 @@ img {
     margin-bottom: 2em;
 }
 
-.blog--read-more > a {
+.blog--read-more {
     font-family: var(--ff-oswald);
     font-size: var(--fs-p-medium);
     font-weight: var(--fw-normal);
