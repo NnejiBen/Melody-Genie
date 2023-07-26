@@ -141,3 +141,76 @@
     letter-spacing: 0.5px;
     color: var(--clr-dark-02);
 }
+
+
+<!-- The CSS Code Responsive 576px -->
+
+/* STREAMING SECTION */
+
+.streaming {
+    padding: 3em 0 6em 0;
+    overflow: hidden;
+}
+
+.streaming--cnt {
+    /* position: relative; */
+    position: unset;
+    flex-direction: column;
+    /* left: 0; */
+}
+
+.streaming--left {
+    max-width: 100%;
+    margin-bottom: 3em;
+}
+
+.streaming--song-title-cnt,
+.streaming--progress-bar-cnt {
+    padding: 0 3.5em;
+}
+
+.streaming--controls-cnt {
+    padding: 0 7em;
+}
+
+.streaming--artist {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+.streaming--song-title {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.streaming--progress-bar-cnt {
+    margin-bottom: 1.5em;
+}
+
+.back-img,
+.forward-img {
+    width: 3em;
+}
+
+.play-img {
+    width: 3.5em;
+}
+
+.streaming--controls-col-02 {
+    column-gap: 2em;
+}
+
+.streaming--controls-col-01,
+.streaming--controls-col-03 {
+    width: 5%;
+}
+
+.streaming--right {
+    position: unset;
+    padding: 4em;
+    min-height: 20em;
+}
+
+.streaming--right > p {
+    font-size: 1.6rem;
+}

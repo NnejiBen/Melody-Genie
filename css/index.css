@@ -33,6 +33,7 @@
     --clr-grey-03:  #5F5F5F;
     --clr-light-grey: #E5E5E5;
     --clr-yellow:  #FFB866;
+    --clr-yellow-dark:  #f78706;
     --clr-yellow-bg: #FFFDC2;
     --clr-orange: #FFE2C1;
     --clr-green: #66B89E;
@@ -461,9 +462,9 @@ img {
 
 .music-list {
     position: absolute;
-    background: var(--clr-green);
+    background: var(--clr-yellow-bg);
     width: 28%;
-    max-height: 30em;
+    max-height: 25em;
     overflow: auto;
     right: 0;
     bottom: 0;
@@ -544,7 +545,7 @@ img {
 
   ul li.playing {
     pointer-events: none;
-    color: var(--clr-light);
+    color: var(--clr-yellow-dark);
   }
 
 
