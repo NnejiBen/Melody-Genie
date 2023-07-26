@@ -928,7 +928,7 @@ html {
   }
 
   .music-list.show {
-    bottom: -10em;
+    /* bottom: -10em; */
   }
 
   .header .row {
