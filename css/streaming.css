@@ -391,11 +391,10 @@ img {
     max-height: 25em;
     overflow: auto;
     right: 9em;
-    bottom: 0;
     opacity: 0;
     pointer-events: none;
     padding: 1em 1.5em;
-    border-radius: 16px;
+    /* border-radius: 16px; */
     box-shadow: 0px -5px 10px rgba(0,0,0,0.1);
     transition: all 0.15s ease-out;
   }
@@ -882,7 +881,7 @@ html {
 
 .name {
     font-size: 1.5rem;
-    font-weight: var(--fw-bold)
+    font-weight: var(--fw-bold);
     margin-bottom: .3em;
 }
 
@@ -929,7 +928,7 @@ html {
   }
 
   .music-list.show {
-    bottom: 14em;
+    bottom: -10em;
   }
 
   .header .row {
@@ -955,7 +954,6 @@ html {
 
   ul li.playing {
     pointer-events: none;
-    color: var(--clr-light);
   }
 
 
