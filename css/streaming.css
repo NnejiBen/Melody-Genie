@@ -614,6 +614,7 @@ img {
 
 .slides-container {
     width: 45%;
+    overflow: auto;
 }
 
 .embed-music-album iframe {
