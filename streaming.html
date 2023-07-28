@@ -227,7 +227,7 @@
         </section>
 
         <!-- RELATED SONGS SECTION -->
-        <section class="section related-songs">
+        <section class="section related-songs related-songs-desktop">
             <h2 class="related-songs--title">Related Songs</h2>
             <div class="related--cnt">
                 <div class="related-01">
@@ -248,61 +248,35 @@
             </div>
         </section>
 
-        <!-- EMBED SECTION -->
-        <section class="section embed-section">
-            <!-- Slideshow container -->
-            <div class="slideshow-container">
-                <!-- Previous button -->
-                <div class="prev-container">
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <!-- RELATED SONGS SECTION - MOBILE-->
+        <section class="section related-songs related-songs-mobile">
+            <h2 class="related-songs--title">Related Songs</h2>
+            <div id="slider" class="related--cnt slideshow-container">
+                <div class="related-01 mySlides fade">
+                    <img src="images/melodies-related-01.svg" alt="Image for related songs" class="related--img">
+                    <h4 class="related--song-title">Love Is Gone</h4>
+                    <p class="related--artist">Slander, Dylan Matthew</p>
                 </div>
-                <!-- Slides -->
-                <div class="slides-container">
-                    <!-- Slide 01 -->
-                    <div class="mySlides fade">
-                        <div class="embed-music-album">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1Hkbu7nahDPjp2pLWWRcvo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                        </div>
-                    </div>
-                    <!-- Slide 02 -->
-                    <div class="mySlides fade">
-                        <div class="embed-music-album">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3YdT8QvV4QvY4DfVJhxdcZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                        </div>
-                    </div>
-                    <!-- Slide 03 -->
-                    <div class="mySlides fade">
-                        <div class="embed-music-album">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5ILrArfIV0tMURcHJN8Q07?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                        </div>
-                    </div>
-                    <!-- Slide 04 -->
-                    <div class="mySlides fade">
-                        <div class="embed-music-album">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1bgvuzIjHq12cBsfXCoEBe?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                        </div>
-                    </div>
-                    <!-- Slide 05 -->
-                    <div class="mySlides fade">
-                        <div class="embed-music-album">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/710wXZlOutU4kV7BeLoVwl?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                        </div>
-                    </div>
+                <div class="related-02 mySlides fade">
+                    <img src="images/melodies-related-02.svg" alt="Image for related songs" class="related--img">
+                    <h4 class="related--song-title">Payphone</h4>
+                    <p class="related--artist">Maroon 5, Wiz Khalifa</p>
                 </div>
-                <!-- Next button -->
-                <div class="next-container">
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="related-03 mySlides fade">
+                    <img src="images/melodies-related-03.svg" alt="Image for related songs" class="related--img">
+                    <h4 class="related--song-title">A Whole New World</h4>
+                    <p class="related--artist">Peabo Bryson, Regina Belle (Aladdin's Theme)</p>
                 </div>
+                <!-- Previous & Next Icons -->
+                <a class="prev" onclick="plusSlides(-1)">&lt;</a>
+                <a class="next" onclick="plusSlides(1)">&gt;</a>
             </div>
-
-            <!-- The dots/circles -->
             <div style="text-align:center">
+                <!-- Dots-->
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-            </div>
+              </div>
         </section>
 
     </main>
@@ -328,11 +302,11 @@
             </ul>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
     <script src="js/music-list.js"></script>
     <script src="js/music-player.js"></script>
     <script src="js/mobile-menu.js"></script>
-    <script src="js/embed-music.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/slider-swipe.js"></script>
 </body>
 </html>
