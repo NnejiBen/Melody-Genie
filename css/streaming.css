@@ -474,6 +474,10 @@ img {
 
 /* LYRICS SECTION */
 
+.lyrics-mobile {
+    display: none;
+}
+
 .lyrics {
     margin: 6em auto 6em auto;
 }
@@ -751,6 +755,7 @@ img {
         padding: 2em 0;
     }
 
+
     /* Related Songs Section */
 
     .related-songs-desktop {
@@ -761,12 +766,12 @@ img {
         display: block;
     }
 
-    .slideshow-container {
+    .slideshow-container-related {
         position: relative;
     }
 
-    .prev, 
-    .next {
+    .prev-related, 
+    .next-related {
       position: absolute;
       top: 40%;
       display: flex;
@@ -786,36 +791,32 @@ img {
       user-select: none;
     }
 
-    .prev:hover, 
-    .next:hover {
+    .prev-related:hover, 
+    .next-related:hover {
         opacity: .7;
     }
 
-    .next {
+    .next-related {
         right: 0;
     }
 
-    .dot {
-        cursor: pointer;
-        height: 3em;
-        width: 3em;
-        margin: 4em 1em 0 1em;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
+    
+    /* Lyrics Section */
+
+    .lyrics-desktop {
+        display: none;
     }
 
-    .active, .dot:hover {
-        /* background-color: #717171; */
-        background-color: var(--clr-grey-03);
+    .lyrics-mobile {
+        display: block;
     }
+
 }
 
 
-@media all and (max-width: 576px) {
+@media (max-width: 576px) {
 
-/* GENERAL STYLES */
+/* General Styles */
 
 html {
     font-size: .5rem;
@@ -827,7 +828,7 @@ html {
 }
 
 
-/* HEADER SECTION */
+/* Header Section */
 
 .header {
     padding-top: 2em;
@@ -848,7 +849,7 @@ html {
 }
 
 
-/* STREAMING SECTION */
+/* Streaming Section */
 
 .streaming {
     padding: 3em auto 6em auto;
@@ -932,10 +933,6 @@ html {
     right: 2em;
   }
 
-  .music-list.show {
-    /* bottom: -10em; */
-  }
-
   .header .row {
     font-size: 2rem;
   }
@@ -962,7 +959,7 @@ html {
   }
 
 
-/* LYRICS SECTION */
+/* Lyrics Section */
 
 .lyrics {
     margin: 6em auto 5.5em auto;
@@ -1013,7 +1010,7 @@ html {
 }
 
 
-/* RELATED SONGS SECTION */
+/* Related Songs Section */
 
 .related-songs {
     padding: 6em 2em 10em 2em;
@@ -1040,7 +1037,7 @@ html {
 }
 
 
-/* FOOTER */
+/* Footer */
 
 .footer {
     max-height: 14em;

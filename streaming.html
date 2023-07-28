@@ -118,7 +118,7 @@
         </section>
         
         <!-- LYRICS SECTION -->
-        <section class="section lyrics">
+        <section class="section lyrics lyrics-desktop">
             <div class="lyrics--title-cnt">
                 <h2 class="lyrics--title">LyricFusion</h2>
                 <p class="lyrics--subtitle">Unlock the Power of Music and Words and Immerse Yourself in the Soulful Blend of Melody and Poetry</p>
@@ -226,6 +226,111 @@
             </div>
         </section>
 
+        <!-- LYRICS SECTION - MOBILE-->
+        <section class="section lyrics lyrics-mobile">
+            <div class="lyrics--title-cnt">
+                <h2 class="lyrics--title">LyricFusion</h2>
+                <p class="lyrics--subtitle">Unlock the Power of Music and Words and Immerse Yourself in the Soulful Blend of Melody and Poetry</p>
+            </div>
+            <div class="lyrics--lyrics-cnt slideshow-container">
+                <!-- Lyrics 01 -->
+                <div class="row-01-lyrics-01 lyrics--item mySlides">
+                    <div class="lyrics--item-text-cnt">
+                        <h4 class="lyrics--item-title">Ethereal Melodies</h4>
+                        <p class="lyrics--item-body">
+                            In the twilight of a starry night,<br>
+                            Whispers of a melody take flight,<br>
+                            A symphony woven with gentle grace,<br>
+                            Filling the air, a soothing embrace.
+                        </p>
+                    </div>
+                    <div class="lyrics--item-img-cnt">
+                        <img src="images/lyrics-col1-01.svg" alt="Image for music lyrics" class="lyrics--item-img">
+                    </div>
+                </div>
+                <!-- Lyrics 02 -->
+                <div class="row-01-lyrics-02 lyrics--item mySlides">
+                    <div class="lyrics--item-text-cnt">
+                        <h4 class="lyrics--item-title">The Power of Live Music</h4>
+                        <p class="lyrics--item-body">
+                            In the depths of the night, where shadows roam, <br>
+                            A melody emerges, like a starlight's poem, <br>
+                            It whispers secrets of a world yet to be, <br>
+                            A song that echoes through eternity.
+                        </p>
+                    </div>
+                    <div class="lyrics--item-img-cnt">
+                        <img src="images/lyrics-col2-01.svg" alt="Image for music lyrics" class="lyrics--item-img">
+                    </div>
+                </div>
+                <!-- Lyrics 03 -->
+                <div class="row-01-lyrics-03 lyrics--item mySlides">
+                    <div class="lyrics--item-text-cnt">
+                        <h4 class="lyrics--item-title">Be Happy</h4>
+                        <p class="lyrics--item-body">
+                            Here's a little song I wrote, <br>
+                            You might want to sing it note for note, <br>
+                            Don't worry, be happy, <br>
+                            In every life, we have some trouble, <br>
+                            But when you worry, you make it double, <br>
+                            Don't worry, be happy.
+                        </p>
+                    </div>
+                    <div class="lyrics--item-img-cnt">
+                        <img src="images/lyrics-col3-01.svg" alt="Image for music lyrics" class="lyrics--item-img">
+                    </div>
+                </div>
+                <!-- Lyrics 04 -->
+                <div class="row-02-lyrics-01 lyrics--item mySlides">
+                    <div class="lyrics--item-text-cnt">
+                        <h4 class="lyrics--item-title">Echoes of Tomorrow</h4>
+                        <p class="lyrics--item-body">
+                            In the depths of the night, where shadows roam, <br>
+                            A melody emerges, like a starlight's poem, <br>
+                            It whispers secrets of a world yet to be, <br>
+                            A song that echoes through eternity.
+                        </p>
+                    </div>
+                    <div class="lyrics--item-img-cnt">
+                        <img src="images/lyrics-col1-02.svg" alt="Image for music lyrics" class="lyrics--item-img">
+                    </div>
+                </div>
+                <!-- Lyrics 05 -->
+                <div class="row-02-lyrics-02 lyrics--item mySlides">
+                    <div class="lyrics--item-text-cnt">
+                        <h4 class="lyrics--item-title">Mighty Nine</h4>
+                        <p class="lyrics--item-body">
+                            In the stillness of the night, I close my eyes, <br>
+                            Searching for a melody to harmonize, <br>
+                            With every breath, my soul takes flight, <br>
+                            I'll paint my words with colors, shining bright.
+                        </p>
+                    </div>
+                    <div class="lyrics--item-img-cnt">
+                        <img src="images/lyrics-col2-02.svg" alt="Image for music lyrics" class="lyrics--item-img">  
+                    </div>
+                </div>
+                <!-- Lyrics 06 -->
+                <div class="row-02-lyrics-03 lyrics--item mySlides">
+                    <div class="lyrics--item-text-cnt">
+                        <h4 class="lyrics--item-title">The Power of Live Music</h4>
+                        <p class="lyrics--item-body">
+                            In the corners of my mind, memories unfold, <br>
+                            A tapestry of moments, stories yet untold, <br>
+                            From the laughter and the tears, to the joy and the pain, <br>
+                            These memories are etched, like a timeless refrain.
+                        </p>
+                    </div>
+                    <div class="lyrics--item-img-cnt">
+                        <img src="images/lyrics-col3-02.svg" alt="Image for music lyrics" class="lyrics--item-img">
+                    </div>
+                </div>
+                <!-- Previous & Next Icons -->
+                <a class="prev" onclick="plusSlides(-1)">&lt;</a>
+                <a class="next" onclick="plusSlides(1)">&gt;</a>
+            </div>
+        </section>
+
         <!-- RELATED SONGS SECTION -->
         <section class="section related-songs related-songs-desktop">
             <h2 class="related-songs--title">Related Songs</h2>
@@ -251,27 +356,28 @@
         <!-- RELATED SONGS SECTION - MOBILE-->
         <section class="section related-songs related-songs-mobile">
             <h2 class="related-songs--title">Related Songs</h2>
-            <div id="slider" class="related--cnt slideshow-container">
-                <div class="related-01 mySlides fade">
+            <div id="slider" class="related--cnt slideshow-container-related">
+                <div class="related-01 mySlides-related">
                     <img src="images/melodies-related-01.svg" alt="Image for related songs" class="related--img">
                     <h4 class="related--song-title">Love Is Gone</h4>
                     <p class="related--artist">Slander, Dylan Matthew</p>
                 </div>
-                <div class="related-02 mySlides fade">
+                <div class="related-02 mySlides-related">
                     <img src="images/melodies-related-02.svg" alt="Image for related songs" class="related--img">
                     <h4 class="related--song-title">Payphone</h4>
                     <p class="related--artist">Maroon 5, Wiz Khalifa</p>
                 </div>
-                <div class="related-03 mySlides fade">
+                <div class="related-03 mySlides-related">
                     <img src="images/melodies-related-03.svg" alt="Image for related songs" class="related--img">
                     <h4 class="related--song-title">A Whole New World</h4>
                     <p class="related--artist">Peabo Bryson, Regina Belle (Aladdin's Theme)</p>
                 </div>
                 <!-- Previous & Next Icons -->
-                <a class="prev" onclick="plusSlides(-1)">&lt;</a>
-                <a class="next" onclick="plusSlides(1)">&gt;</a>
+                <a class="prev-related" onclick="plusSlidesRelated(-1)">&lt;</a>
+                <a class="next-related" onclick="plusSlidesRelated(1)">&gt;</a>
             </div>
         </section>
+
 
     </main>
 
@@ -301,6 +407,6 @@
     <script src="js/music-player.js"></script>
     <script src="js/mobile-menu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/slider-swipe.js"></script>
+    <script src="js/streaming-slider-related.js"></script>
 </body>
 </html>
