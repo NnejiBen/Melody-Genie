@@ -769,25 +769,25 @@ img {
     .next {
       position: absolute;
       top: 40%;
-      cursor: pointer;
-      padding: 1em;
-      color: var(--clr-light);
-      opacity: .9;
-      font-weight: var(--fw-extra-bold);
-      font-size: 3rem;
-      user-select: none;
-      background-color: var(--clr-light-grey);
-      width: 1em;
-      height: 1em;
-      border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 1em;
+      height: 1em;
+      border-radius: 50%;
+      padding: 1em;
+      font-size: 3rem;
+      font-weight: var(--fw-extra-bold);
+      color: var(--clr-dark);
+      background-color: var(--clr-green);
+      opacity: .5;
+      cursor: pointer;
+      user-select: none;
     }
 
     .prev:hover, 
     .next:hover {
-        opacity: 1;
+        opacity: .7;
     }
 
     .next {
