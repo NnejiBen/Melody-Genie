@@ -1,4 +1,3 @@
-
 // img must be in .jpg format
 // src must be in .mp3 format
 
@@ -34,37 +33,36 @@ let allMusic = [
       src: "music-05"
     },
     {
-        name: "I'm With You",
-        artist: "Avril Lavigne",
-        img: "music-06",
-        src: "music-06"
-      },
-      {
-        name: "Nine Million Bicycles",
-        artist: "Katie Melua",
-        img: "music-07",
-        src: "music-07"
-      },
-      {
-        name: "She Will Be Loved",
-        artist: "Maroon 5",
-        img: "music-08",
-        src: "music-08"
-      },
-      {
-        name: "Unwritten",
-        artist: "Natasha Bedingfield",
-        img: "music-09",
-        src: "music-09"
-      },
-      {
-        name: "When Will I See You Again?",
-        artist: "The Three Degrees",
-        img: "music-10",
-        src: "music-10"
-      }
+      name: "I'm With You",
+      artist: "Avril Lavigne",
+      img: "music-06",
+      src: "music-06"
+    },
+    {
+      name: "Nine Million Bicycles",
+      artist: "Katie Melua",
+      img: "music-07",
+      src: "music-07"
+    },
+    {
+      name: "She Will Be Loved",
+      artist: "Maroon 5",
+      img: "music-08",
+      src: "music-08"
+    },
+    {
+      name: "Unwritten",
+      artist: "Natasha Bedingfield",
+      img: "music-09",
+      src: "music-09"
+    },
+    {
+      name: "When Will I See You Again?",
+      artist: "The Three Degrees",
+      img: "music-10",
+      src: "music-10"
+    }
   ];
-
 
 // PLAYLIST
 // music-01 - A Thousand Miles - Vanessa Carlton

@@ -1,16 +1,16 @@
-const wrapper = document.querySelector(".wrapper"),
-musicImg = wrapper.querySelector(".img-area img"),
-musicName = wrapper.querySelector(".song-details .name"),
-musicArtist = wrapper.querySelector(".song-details .artist"),
-playPauseBtn = wrapper.querySelector(".play-pause"),
-prevBtn = wrapper.querySelector("#prev"),
-nextBtn = wrapper.querySelector("#next"),
-mainAudio = wrapper.querySelector("#main-audio"),
-progressArea = wrapper.querySelector(".progress-area"),
-progressBar = progressArea.querySelector(".progress-bar"),
-musicList = wrapper.querySelector(".music-list"),
-moreMusicBtn = wrapper.querySelector("#more-music"),
-closemoreMusic = musicList.querySelector("#close");
+const wrapper = document.querySelector(".wrapper-streaming"),
+musicImg = wrapper.querySelector(".img-area-streaming img"),
+musicName = wrapper.querySelector(".song-details-streaming .name-streaming"),
+musicArtist = wrapper.querySelector(".song-details-streaming .artist-streaming"),
+playPauseBtn = wrapper.querySelector(".play-pause-streaming"),
+prevBtn = wrapper.querySelector("#prev-streaming"),
+nextBtn = wrapper.querySelector("#next-streaming"),
+mainAudio = wrapper.querySelector("#main-audio-streaming"),
+progressArea = wrapper.querySelector(".progress-area-streaming"),
+progressBar = progressArea.querySelector(".progress-bar-streaming"),
+musicList = wrapper.querySelector(".music-list-streaming"),
+moreMusicBtn = wrapper.querySelector("#more-music-streaming"),
+closemoreMusic = musicList.querySelector("#close-streaming");
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
@@ -86,8 +86,8 @@ mainAudio.addEventListener("timeupdate", (e)=>{
   let progressWidth = (currentTime / duration) * 100;
   progressBar.style.width = `${progressWidth}%`;
 
-  let musicCurrentTime = wrapper.querySelector(".current-time"),
-  musicDuartion = wrapper.querySelector(".max-duration");
+  let musicCurrentTime = wrapper.querySelector(".current-time-streaming"),
+  musicDuartion = wrapper.querySelector(".max-duration-streaming");
   mainAudio.addEventListener("loadeddata", ()=>{
     // update song total duration
     let mainAdDuration = mainAudio.duration;
@@ -119,7 +119,7 @@ progressArea.addEventListener("click", (e)=>{
 });
 
 //change loop, shuffle, repeat icon onclick
-const repeatBtn = wrapper.querySelector("#repeat-plist");
+const repeatBtn = wrapper.querySelector("#repeat-plist-streaming");
 repeatBtn.addEventListener("click", ()=>{
   let getText = repeatBtn.innerText; //getting this tag innerText
   switch(getText){
