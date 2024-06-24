@@ -1144,22 +1144,22 @@ ul li .audio-duration {
 /* TEXT SLIDER SECTION */
 
 .txt-slider {
-    padding: 18em 0 4em 0;
+    padding: 14em 0 4em 0;
 }
 
-.txt-slider--cnt {
-    margin: auto 2em auto 2em;
+.marquee-item {
+    gap: .5em;
 }
 
-.txt-slider--text {
+.marquee-item-text {
     font-size: 2rem;
     line-height: normal;
-    padding-right: .5em;
     -webkit-text-stroke-width: 1px;
 }
 
-.txt-slider--star {
-    width: 35%;
+.marquee-item-img {
+    width: 24px;
+    height: 24px;
 }
 
 
