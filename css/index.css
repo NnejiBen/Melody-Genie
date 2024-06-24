@@ -556,34 +556,61 @@ img {
     padding: 22em 0 4.5em 0;
 }
 
-.txt-slider--text {
+/* Marquee Start */
+
+.marquee-wrapper {
+    --gap: 1.2em;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+}
+  
+.marquee-content {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+    animation: marquee-scroll 30s linear infinite;
+}
+
+.marquee-item {
+    display: flex;
+    align-items: center;
+}
+
+.marquee-item-text {
     font-family: var(--ff-oswald);
     font-size: var(--fs-h1);
     font-weight: var(--fw-bold);
     color: var(--clr-dark-03);
-    padding-right: .5em;
+    padding-right: .3em;
     -webkit-text-fill-color: var(--clr-pink);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--clr-dark-03);
 }
 
-.txt-slider--cnt {
-    display: flex;
-    align-items: center;
-    margin: auto 6em auto 6em;
-    /* white-space: nowrap; */
-    /* animation: marquee 10s infinite linear; */
+.marquee-item-img {
+    width: 64px;
+    height: 64px;
 }
 
-@keyframes marquee {
-    0% {
-        transform: translateX(100%);
+@keyframes marquee-scroll {
+    from {
+      transform: translateX(0);
     }
-    100% {
-        transform: translateX(-100%);
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
     }
 }
 
+/* Pause on hover */
+.marquee-wrapper:hover .marquee-content {
+    animation-play-state: paused;
+}
+
+/* Marquee End */
 
 /* ABOUT SECTION */
 
