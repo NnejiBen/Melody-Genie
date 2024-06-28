@@ -1050,11 +1050,11 @@ img {
 
 /* RESPONSIVE MODE */
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     .hero {
         flex-direction: column;
     }
-} */
+}
 
 @media (max-width: 768px) {
 
