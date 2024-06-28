@@ -289,18 +289,36 @@ img {
     margin-left: auto;
 }
 
-.hero--card-david, 
-.hero--card-slay {
-    transform: scale(60%);
-    opacity: 50%;
-}
-
 .hero--card-david {
-    transform-origin: bottom left;
+    animation: 5s infinite top-card; 
+}
+.hero--card-mary {
+    /* display: none; */
+}
+.hero--card-slay {
+    /* display: none; */
 }
 
-.hero--card-slay {
-    transform-origin: top left;
+@keyframes top-card {
+    0% {
+        transform: translateY(0px) scale(0.6);
+        transform-origin: bottom left;
+        opacity: 50%;
+    }
+    33% {
+        transform: translateY(312px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
+    }
+    66% {
+        transform: translateY(156px) scale(1);
+        opacity: 100%;
+    }
+    100% {
+        transform: translateY(0px) scale(0.6);
+        transform-origin: bottom left;
+        opacity: 50%;
+    }
 }
 
 
