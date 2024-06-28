@@ -290,13 +290,13 @@ img {
 }
 
 .hero--card-david {
-    animation: 10s infinite ease-out top-card; 
+    animation: top-card 7s infinite ease-out;
 }
 .hero--card-mary {
-    animation: 10s infinite ease-out middle-card;
+    animation: middle-card 7s infinite ease-out;
 }
 .hero--card-slay {
-    animation: 10s infinite ease-out bottom-card;
+    animation: bottom-card 7s infinite ease-out;
 }
 
 @keyframes top-card {
@@ -305,12 +305,26 @@ img {
         transform-origin: bottom left;
         opacity: 50%;
     }
-    33% {
+    15% {
+        transform: translateY(0px) scale(0.6);
+        transform-origin: bottom left;
+        opacity: 50%;
+    }
+    30% {
         transform: translateY(312px) scale(0.6);
         transform-origin: top left;
         opacity: 50%;
     }
-    66% {
+    50% {
+        transform: translateY(312px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
+    }
+    65% {
+        transform: translateY(156px) scale(1);
+        opacity: 100%;
+    }
+    80% {
         transform: translateY(156px) scale(1);
         opacity: 100%;
     }
@@ -322,19 +336,36 @@ img {
 }
 
 @keyframes middle-card {
-    0% {}
-    33% {
+    0% {
+        transform: translateY(0px) scale(1);
+        opacity: 100%;
+    }
+    15% {
+        transform: translateY(0px) scale(1);
+        opacity: 100%;
+    }
+    30% {
         transform: translateY(-156px) scale(0.6);
         transform-origin: bottom left;
         opacity: 50%;
     }
-    66% {
-        transform: translateY(156px) scale(0.6);
+    50% {
+        transform: translateY(-156px) scale(0.6);
+        transform-origin: bottom left;
         opacity: 50%;
+    }
+    65% {
+        transform: translateY(156px) scale(0.6);
         transform-origin: top left;
+        opacity: 50%;
+    }
+    80% {
+        transform: translateY(156px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
     }
     100% {
-        transform: translateY(-0px) scale(1);
+        transform: translateY(0px) scale(1);
         opacity: 100%;
     }
 }
@@ -345,12 +376,27 @@ img {
         transform-origin: top left;
         opacity: 50%;
     }
-    33% {
+    15% {
+        transform: translateY(0px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
+    }
+    30% {
         transform: translateY(-156px) scale(1);
         transform-origin: top left;
         opacity: 100%;
     }
-    66% {
+    50% {
+        transform: translateY(-156px) scale(1);
+        transform-origin: top left;
+        opacity: 100%;
+    }
+    65% {
+        transform: translateY(-312px) scale(0.6);
+        transform-origin: bottom left;
+        opacity: 50%;
+    }
+    80% {
         transform: translateY(-312px) scale(0.6);
         transform-origin: bottom left;
         opacity: 50%;
@@ -1191,12 +1237,26 @@ html {
         transform-origin: bottom left;
         opacity: 50%;
     }
-    33% {
+    15% {
+        transform: translateY(0px) scale(0.6);
+        transform-origin: bottom left;
+        opacity: 50%;
+    }
+    30% {
         transform: translateY(156px) scale(0.6);
         transform-origin: top left;
         opacity: 50%;
     }
-    66% {
+    50% {
+        transform: translateY(156px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
+    }
+    65% {
+        transform: translateY(78px) scale(1);
+        opacity: 100%;
+    }
+    80% {
         transform: translateY(78px) scale(1);
         opacity: 100%;
     }
@@ -1208,19 +1268,36 @@ html {
 }
 
 @keyframes middle-card {
-    0% {}
-    33% {
+    0% {
+        transform: translateY(0px) scale(1);
+        opacity: 100%;
+    }
+    15% {
+        transform: translateY(0px) scale(1);
+        opacity: 100%;
+    }
+    30% {
         transform: translateY(-78px) scale(0.6);
         transform-origin: bottom left;
         opacity: 50%;
     }
-    66% {
-        transform: translateY(78px) scale(0.6);
+    50% {
+        transform: translateY(-78px) scale(0.6);
+        transform-origin: bottom left;
         opacity: 50%;
+    }
+    65% {
+        transform: translateY(78px) scale(0.6);
         transform-origin: top left;
+        opacity: 50%;
+    }
+    80% {
+        transform: translateY(78px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
     }
     100% {
-        transform: translateY(-0px) scale(1);
+        transform: translateY(0px) scale(1);
         opacity: 100%;
     }
 }
@@ -1231,12 +1308,27 @@ html {
         transform-origin: top left;
         opacity: 50%;
     }
-    33% {
+    15% {
+        transform: translateY(0px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
+    }
+    30% {
         transform: translateY(-78px) scale(1);
         transform-origin: top left;
         opacity: 100%;
     }
-    66% {
+    50% {
+        transform: translateY(-78px) scale(1);
+        transform-origin: top left;
+        opacity: 100%;
+    }
+    65% {
+        transform: translateY(-156px) scale(0.6);
+        transform-origin: bottom left;
+        opacity: 50%;
+    }
+    80% {
         transform: translateY(-156px) scale(0.6);
         transform-origin: bottom left;
         opacity: 50%;
