@@ -290,13 +290,13 @@ img {
 }
 
 .hero--card-david {
-    animation: 5s infinite top-card; 
+    animation: 7s infinite ease-out top-card; 
 }
 .hero--card-mary {
-    animation: 5s infinite middle-card;
+    animation: 7s infinite ease-out middle-card;
 }
 .hero--card-slay {
-    animation: 5s infinite bottom-card;
+    animation: 7s infinite ease-out bottom-card;
 }
 
 @keyframes top-card {
