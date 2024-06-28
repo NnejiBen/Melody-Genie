@@ -293,10 +293,10 @@ img {
     animation: 5s infinite top-card; 
 }
 .hero--card-mary {
-    /* display: none; */
+    animation: 5s infinite middle-card;
 }
 .hero--card-slay {
-    /* display: none; */
+    animation: 5s infinite bottom-card;
 }
 
 @keyframes top-card {
@@ -321,6 +321,46 @@ img {
     }
 }
 
+@keyframes middle-card {
+    0% {}
+    33% {
+        transform: translateY(-156px) scale(0.6);
+        transform-origin: bottom left;
+        opacity: 50%;
+    }
+    66% {
+        transform: translateY(156px) scale(0.6);
+        opacity: 50%;
+        transform-origin: top left;
+    }
+    100% {
+        transform: translateY(-0px) scale(1);
+        opacity: 100%;
+    }
+}
+
+@keyframes bottom-card {
+    0% {
+        transform: translateY(0px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
+    }
+    33% {
+        transform: translateY(-156px) scale(1);
+        transform-origin: top left;
+        opacity: 100%;
+    }
+    66% {
+        transform: translateY(-312px) scale(0.6);
+        transform-origin: bottom left;
+        opacity: 50%;
+    }
+    100% {
+        transform: translateY(0px) scale(0.6);
+        transform-origin: top left;
+        opacity: 50%;
+    }
+}
 
 /* MUSIC PLAYER SECTION */
 
