@@ -985,6 +985,51 @@ img {
     margin-bottom: .5em;
 }
 
+.lyrics--text-extension {
+    display: none;
+}
+
+.lyrics--01:hover .lyrics--text-extension {
+    display: block;
+}
+
+.lyrics--02:hover .lyrics--text-extension {
+    display: block;
+}
+
+.lyrics--03:hover .lyrics--text-extension {
+    display: block;
+}
+
+.lyrics--04:hover .lyrics--text-extension {
+    display: block;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    15% {
+        transform: translateY(-30px);
+    }
+}
+
+.lyrics--03 img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.lyrics--03:hover img {
+    animation: bounce 1s;
+}
+
+.lyrics--04 img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.lyrics--04:hover img {
+    animation: bounce 1s;
+}
+
 .lyrics--right {
     width: 50%;
 }
