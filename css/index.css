@@ -985,7 +985,7 @@ img {
     margin-bottom: .5em;
 }
 
-.lyrics--text-extension {
+/* .lyrics--text-extension {
     display: none;
 }
 
@@ -1003,6 +1003,10 @@ img {
 
 .lyrics--04:hover .lyrics--text-extension {
     display: block;
+} */
+
+#lyrics-01-ext-02, #lyrics-02-ext-03 {
+    display: none;
 }
 
 @keyframes bounce {
