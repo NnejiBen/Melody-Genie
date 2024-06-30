@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Oswald:wght@400;500;700&display=swap');
 
-
 /* CUSTOM PROPERTIES */
 
 :root {
@@ -42,7 +41,6 @@
     --clr-yellow-bg:  #FFFDC2;
 }
 
-
 /* GENERAL STYLES */
 
 * {
@@ -66,7 +64,6 @@ img {
 .block {
     display: block;
 }
-
 
 /* HEADER SECTION */
 
@@ -178,12 +175,10 @@ img {
     background-color: var(--clr-dark);
 }
 
-
 /* HERO SECTION */
 
 .hero {
     background: var(--clr-green);
-    display: flex;
     padding: 7.5em 10.5em 2em 10.5em;
 }
 
