@@ -55,6 +55,11 @@ html {
     font-size: 1em;
 }
 
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -72,23 +77,18 @@ img {
 /* HEADER SECTION */
 
 .header-section {
+    position: fixed;
+    width: 100%;
+    max-width: 1440px;
     background-color: var(--clr-green);
-    padding-bottom: 8em;
-    display: flex;
+    z-index: 2;
 }
 
 .nav-menu {
     display: flex;
-    width: 100%;
-    padding: 1.5em 6em;
+    align-self: center;
     justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--clr-green);
-    z-index: 2;
-    border-bottom: 1px solid var(--clr-grey-03);
+    height: 84px;
 }
 
 .logo-cnt {
@@ -98,7 +98,8 @@ img {
 }
 
 .logo {
-    max-width: 4.5em;
+    max-width: 48px;
+    height: auto;
 }
 
 .company-name {
@@ -117,21 +118,21 @@ img {
 
 .nav-link--melodies {
     font-family: var(--ff-oswald);
-    font-size: var(--fs-h4);
+    font-size: var(--fs-h5);
     font-weight: var(--fw-bold);
     color: var(--clr-grey-01);
 }
 
 .nav-link--stream {
     font-family: var(--ff-oswald);
-    font-size: var(--fs-h4);
+    font-size: var(--fs-h5);
     font-weight: var(--fw-bold);
     color: var(--clr-grey-01);
 }
 
 .nav-link--blog {
     font-family: var(--ff-oswald);
-    font-size: var(--fs-h4);
+    font-size: var(--fs-h5);
     font-weight: var(--fw-bold);
     color: var(--clr-grey-01);
 }
@@ -186,7 +187,7 @@ img {
 .hero {
     background: var(--clr-green);
     display: flex;
-    padding-top: 5em;
+    padding-top: 13em;
     width: 100%;
 }
 

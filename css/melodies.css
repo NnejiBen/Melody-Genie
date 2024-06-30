@@ -53,6 +53,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -180,6 +185,7 @@ img {
 .hero {
     background: var(--clr-green);
     padding: 7.5em 10.5em 2em 10.5em;
+    display: flex;
 }
 
 .hero--left {
