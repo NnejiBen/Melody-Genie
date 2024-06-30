@@ -78,7 +78,6 @@ const lyrics04MouseOver = () => {
 const lyrics04MouseOut = () => {
     lyrics03Ext02.style.display = "block";
     lyrics04Ext01.style.display = "none";
-    // lyrics04Ext02.style.display = "block";
     lyrics03.style.paddingBottom = "0";
 }
 
