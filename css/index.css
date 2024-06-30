@@ -886,7 +886,7 @@ img {
 
 .lyrics--left {
     width: 50%;
-    padding-right: 2.5em;
+    padding-right: 2em;
 }
 
 .lyrics--subscribe-title {
@@ -905,7 +905,7 @@ img {
     line-height: 22px;
     letter-spacing: 0.5px;
     color: var(--clr-dark-02);
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .lyrics--email-label {
@@ -959,10 +959,14 @@ img {
 }
 
 .lyrics--cnt {
-    padding: 2.25em 2em;
+    padding: 2.25em 2em 0em 2em;
     background: var(--clr-light);
     border-radius: 24px;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
+}
+
+#lyrics-01, #lyrics-02 {
+    padding-bottom: .2em;
 }
 
 .lyrics--title {
@@ -979,33 +983,13 @@ img {
     font-family: var(--ff-arimo);
     font-size: var(--fs-p-small);
     font-weight: var(--fw-normal);
-    line-height: 17px;
+    line-height: 16.8px;
     letter-spacing: 0.5px;
     color: var(--clr-dark-01);
-    margin-bottom: .5em;
+    margin-bottom: 1em;
 }
 
-/* .lyrics--text-extension {
-    display: none;
-}
-
-.lyrics--01:hover .lyrics--text-extension {
-    display: block;
-}
-
-.lyrics--02:hover .lyrics--text-extension {
-    display: block;
-}
-
-.lyrics--03:hover .lyrics--text-extension {
-    display: block;
-}
-
-.lyrics--04:hover .lyrics--text-extension {
-    display: block;
-} */
-
-#lyrics-01-ext-02, #lyrics-02-ext-03 {
+#lyrics-01-ext-02, #lyrics-02-ext-03, #lyrics-03-ext-01, #lyrics-04-ext-01 {
     display: none;
 }
 
