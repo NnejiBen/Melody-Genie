@@ -14,4 +14,11 @@ const lyrics01MouseOver = () => {
     lyrics02Ext02.style.display = "none";
 }
 
+const lyrics01MouseOut = () => {
+    lyrics01Ext02.style.display = "none";
+    lyrics02Ext01.style.display = "block";
+    lyrics02Ext02.style.display = "block";
+}
+
 lyrics01.addEventListener("mouseover", lyrics01MouseOver);
+lyrics01.addEventListener("mouseout", lyrics01MouseOut);
