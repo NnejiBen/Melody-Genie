@@ -292,13 +292,13 @@ img {
 }
 
 .hero--card-david {
-    animation: top-card 7s infinite ease-out;
+    animation: top-card 10s infinite ease-out;
 }
 .hero--card-mary {
-    animation: middle-card 7s infinite ease-out;
+    animation: middle-card 10s infinite ease-out;
 }
 .hero--card-slay {
-    animation: bottom-card 7s infinite ease-out;
+    animation: bottom-card 10s infinite ease-out;
 }
 
 @keyframes top-card {
@@ -681,7 +681,7 @@ img {
     justify-content: space-around;
     min-width: 100%;
     gap: var(--gap);
-    animation: marquee-scroll 30s linear infinite;
+    animation: marquee-scroll 40s linear infinite;
 }
 
 .marquee-item {
