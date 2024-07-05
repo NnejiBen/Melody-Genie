@@ -87,6 +87,7 @@ img {
 .nav-menu {
     display: flex;
     align-self: center;
+    align-items: center;
     justify-content: space-between;
     height: 84px;
 }
@@ -1029,12 +1030,13 @@ img {
     background: var(--clr-violet);
     height: 40em;
     display: flex;
+    gap: 8em;
     padding: 26em 6em 0 6em;
 }
 
 .footer--title-cnt {
-    margin-right: 9em;
     display: flex;
+    justify-items: center;
     column-gap: 1em;
 }
 
@@ -1070,17 +1072,9 @@ img {
     color: var(--clr-dark-04);
 }
 
-.footer--blog-cnt {
-    margin-right: 10em;
-}
-
 .footer--heading-blog {
     text-decoration: none;
     color: var(--clr-dark);
-}
-
-.footer--contact-cnt {
-    margin-right: 10em;
 }
 
 
@@ -1088,14 +1082,43 @@ img {
 
 @media (max-width: 1200px) {
 
+/* GENERAL STYLES */
+
+.section {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
 /* HERO SECTION */
 
 .hero {
     flex-direction: column;
+    padding-top: 10em;
 }
 
 .hero--left, .hero--right {
     width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+    gap: 4em;
+    padding: 10em 3em 10em 3em;
+    height: max-content;
+}
+
+.footer--title {
+    font-size: var(--fs-h3);
+}
+
+.footer--heading {
+    font-size: var(--fs-h4);
+}
+
+
+.footer--link {
+    font-size: var(--fs-p-medium);
 }
 
 }
@@ -1110,11 +1133,6 @@ img {
 }
 
 /* HEADER SECTION */
-
-.nav-menu {
-    justify-content: unset;
-    padding: 1.5em 2em;
-}
 
 .logo-cnt {
     z-index: 2;
