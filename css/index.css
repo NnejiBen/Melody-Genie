@@ -1089,6 +1089,21 @@ img {
     padding-right: 3em;
 }
 
+/* HEADER SECTION */
+
+.logo-cnt {
+    column-gap: 1em;
+}
+
+.melodies-and-blog-cnt {
+    column-gap: 1em;
+}
+
+.search-and-sub-cnt {
+    column-gap: 1em;  
+}
+
+
 /* HERO SECTION */
 
 .hero {
@@ -1133,6 +1148,10 @@ img {
 }
 
 /* HEADER SECTION */
+
+.nav-menu {
+    height: 64px;
+}
 
 .logo-cnt {
     z-index: 2;
