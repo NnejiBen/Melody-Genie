@@ -1301,6 +1301,9 @@ html {
     padding-bottom: 4em;
 }
 
+.nav-menu {
+    height: 56px;
+}
 .logo-cnt {
     column-gap: .5em;
 }
