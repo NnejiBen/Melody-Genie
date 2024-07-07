@@ -1036,7 +1036,7 @@ img {
 
 .footer--title-cnt {
     display: flex;
-    justify-items: center;
+    align-items: center;
     column-gap: 1em;
 }
 
@@ -1119,7 +1119,7 @@ img {
 
 .footer {
     gap: 4em;
-    padding: 10em 3em 10em 3em;
+    padding: 20em 3em 0 3em;
     height: max-content;
 }
 
@@ -1268,6 +1268,11 @@ img {
     padding: .5em;
     justify-content: space-between;
     align-items: center;
+    gap: 0;
+}
+
+.footer--logo {
+    max-width: 40px;
 }
 
 /* .hero {display: none;} */
@@ -1296,11 +1301,6 @@ html {
 
 /* HEADER SECTION */
 
-.header {
-    padding-top: 2em;
-    padding-bottom: 4em;
-}
-
 .nav-menu {
     height: 48px;
 }
@@ -1316,7 +1316,6 @@ html {
 .header--subscribe-cnt {
     column-gap: 2em;
 }
-
 
 /* HERO SECTION */
 
@@ -1731,6 +1730,10 @@ ul li .audio-duration {
 
 .footer--logo-cnt {
     width: 10%;
+}
+
+.footer--logo {
+    max-width: 20px;
 }
 
 .footer--heading {
