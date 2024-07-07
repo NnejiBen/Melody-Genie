@@ -1322,7 +1322,7 @@ html {
 
 .hero {
     flex-direction: column;
-    padding-top: 3em;
+    padding-top: 8em;
 }
 
 .hero--left {
