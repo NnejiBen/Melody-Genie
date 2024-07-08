@@ -669,6 +669,33 @@ img {
 .search-and-sub-cnt {
     column-gap: 1em;  
 }
+
+/* HERO SECTION */
+
+.hero {
+    flex-direction: column;
+    padding-top: 8em;
+}
+
+.hero--left {
+    width: 100%;
+
+}
+
+.hero--btn {
+    margin-bottom: 1.5em;
+}
+
+.hero--right {
+    transform: unset;
+    padding-left: 0;
+}
+
+.hero--right img {
+    width: 100%;
+    height: auto;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -754,7 +781,6 @@ img {
     
 }
 
-
 @media (max-width: 576px) {
 
 /* GENERAL STYLES */
@@ -794,7 +820,6 @@ html {
 
 .hero {
     flex-direction: column;
-    padding: 5em 2em;
 }
 
 .hero--left {
