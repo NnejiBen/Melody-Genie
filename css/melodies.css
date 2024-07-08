@@ -73,22 +73,19 @@ img {
 /* HEADER SECTION */
 
 .header-section {
+    position: fixed;
+    width: 100%;
+    max-width: 1440px;
     background-color: var(--clr-green);
-    padding-bottom: 8em;
-    display: flex;
+    z-index: 2;
 }
 
 .nav-menu {
     display: flex;
-    width: 100%;
-    padding: 1.5em 6em;
-    justify-content: space-between;
+    align-self: center;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--clr-green);
-    z-index: 2;
+    justify-content: space-between;
+    height: 84px;
 }
 
 .logo-cnt {
@@ -98,7 +95,8 @@ img {
 }
 
 .logo {
-    max-width: 4.5em;
+    max-width: 48px;
+    height: auto;
 }
 
 .company-name {
@@ -184,7 +182,7 @@ img {
 
 .hero {
     background: var(--clr-green);
-    padding: 7.5em 10.5em 2em 10.5em;
+    padding: 14em 10.5em 2em 10.5em;
     display: flex;
 }
 
