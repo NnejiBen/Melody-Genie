@@ -649,8 +649,6 @@ img {
     margin-right: 10em;
 }
 
-
-
 /* RESPONSIVE MODE */
 
 @media (max-width: 1200px) {
@@ -702,6 +700,35 @@ img {
     height: auto;
 }
 
+/* RELATED SONGS SECTION */
+
+.related-songs {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.related-songs--section-title {
+    margin-bottom: .5em;
+}
+
+/* TRENDING SECTION */
+
+.trending {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.trending--title {
+    margin-bottom: .5em;
+}
+
+/* MUSIC PLAYER SECTION */
+
+.music-player {
+    max-height: 45em;
+    padding-top: 4em;
+}
+
 /* FOOTER */
 
 .footer {
@@ -722,10 +749,11 @@ img {
 .footer--link {
     font-size: var(--fs-p-medium);
 }
-
 }
 
 @media (max-width: 768px) {
+
+/* HEADER */
 
 .nav-menu {
     height: 64px;
@@ -805,7 +833,6 @@ img {
     text-align: center;
     padding: 2em 0;
 }
-    
 }
 
 @media (max-width: 576px) {
@@ -914,7 +941,6 @@ html {
     margin-bottom: 5rem;
 }
 
-
 /* TRENDING SECTION */
 
 .trending {
@@ -941,11 +967,10 @@ html {
     margin-bottom: 5rem;
 }
 
-
 /* MUSIC PLAYER SECTION */
 
 .music-player {
-    max-height: auto;
+    max-height: max-content;
     padding: 5em 2em;
 }
 
