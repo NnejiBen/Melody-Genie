@@ -770,6 +770,27 @@ img {
 .search-and-sub-cnt {
     column-gap: 1em;  
 }
+
+/* FOOTER */
+
+.footer {
+    gap: 4em;
+    padding: 20em 3em 0 3em;
+    height: max-content;
+}
+
+.footer--title {
+    font-size: var(--fs-h3);
+}
+
+.footer--heading {
+    font-size: var(--fs-h4);
+}
+
+
+.footer--link {
+    font-size: var(--fs-p-medium);
+}
 }
 
 @media (max-width: 768px) {
